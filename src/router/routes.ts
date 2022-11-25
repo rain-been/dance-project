@@ -39,6 +39,11 @@ export const staticRoutes: Array<RouteRecordRaw> =[
         name: 'Person',
         component: () => import('@/views/Person/index.vue'),
     },
+    {
+        path:'/register',
+        name:'Register',
+        component: () => import('@/views/Register/index.vue'),
+    },
     /* 匹配任意路由，必须放到最后 */
     {
         path: '/:pathMatch(.*)', 
