@@ -3,17 +3,17 @@
     <div class="wrap">
       <div class="nav-left">
         <div class="img">
-          <img src="https://rs.dance365.com/logo@3xrenew3.png" alt="" />
+          <RouterLink to="/resources"><img src="https://rs.dance365.com/logo@3xrenew3.png" alt="" /></RouterLink>
         </div>
-        <RouterLink to="/recommend" class="item"  active-class="active" exact
+        <RouterLink to="/resources" class="item"  active-class="active" exact
           >资源</RouterLink
         >
-        <RouterLink to="/discovery/vip_zone" class="item">课程</RouterLink>
+        <RouterLink to="/course" class="item">课程</RouterLink>
         <RouterLink to="/training" class="item">练习室</RouterLink>
-        <RouterLink to="/communication/systemNote" class="item"
+        <RouterLink to="/communicate" class="item"
           >交流</RouterLink
         >
-        <RouterLink to="/center/dynamics" class="item">我的</RouterLink>
+        <RouterLink to="/person" class="item">我的</RouterLink>
       </div>
       <div class="nav-right">
         <div class="down"><span></span>下载APP</div>
