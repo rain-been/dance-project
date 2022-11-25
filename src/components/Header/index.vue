@@ -13,19 +13,19 @@
             </div>
             <div class="right">
                 <span class="text"><i class="iconfont icon-shouji"></i>下载APP</span>
-                <div class="text" style="background-color:#f93684; color: white; border-radius: 10px;">+发布</div>
+                <div class="text" style="background-color:#f93684; color: white; border-radius: 10px;height: 30px;">+发布</div>
                 <p v-if="false">
                     <el-button @click="logout">
                         退出登录
                     </el-button>
                 </p>
-                <p>
-                    <el-button text @click="centerDialogVisible = true">
+                <p style="height: 30px;margin-top: -1px;">
+                    <el-button class='text' @click="centerDialogVisible = true">
                         登录
                     </el-button>
                 </p>
                 <el-dialog v-model="centerDialogVisible" title="扫码登录" width="30%" align-center>
-                    <img src="./image/erweima.png" class="image" alt="">
+                    <img src="./image/erweima.png" class="image" style="margin-left:100px;"  alt="">
                     <p class="text1"> 打开“中舞网APP”,扫描二维码登录</p>
                     <p class="text1">如未安装APP,点击下方登录注册</p>
                     <template #footer>
@@ -51,8 +51,6 @@ export default {
 import { onMounted, ref, watch, computed } from "vue";
 import { useRoute } from 'vue-router'
 import { useRouter } from 'vue-router'
-// import userStore from '@/store/modules/userInfo/user'
-// const userInfoStore = userStore()
 const router = useRouter()
 const centerDialogVisible = ref(false)
 const toRegister = () => {
@@ -64,7 +62,7 @@ const toLogin = () => {
     router.push('/login')
 }
 const route = useRoute()
-const name = ref('梦馫')
+
 const current = ref(route.meta.title)
 // const logout = async () => {
 //     try {
@@ -124,11 +122,17 @@ onMounted(() => {
         .item {
             margin-left: 50px;
             font-size: 18px;
+            text-decoration: none;
+        }
+
+        .main .item :hover {
+            color: #fa5e9d;
         }
 
         .active {
             color: #fa5e9d;
         }
+
     }
 
     .right {
@@ -148,10 +152,6 @@ onMounted(() => {
         .text:last-child {
             margin-right: 0;
         }
-    }
-
-    .image {
-        margin-left: 160px;
     }
 
     .dialog-footer {
