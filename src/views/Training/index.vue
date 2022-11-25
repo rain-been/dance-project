@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h2>Training</h2>
+        <h2>
+            Training练习室
+        </h2>
     </div>
 </template>
 

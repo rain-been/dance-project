@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Course</h2>
+        <h2>
+            Course
+            课程页面
+        </h2>
     </div>
 </template>
 

@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Communicate</h2>
+        <h2>
+            Communicate
+            交流页面
+        </h2>
     </div>
 </template>
 

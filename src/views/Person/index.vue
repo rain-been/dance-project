@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Person</h2>
+        <h2>
+            Person
+            我的
+        </h2>
     </div>
 </template>
 

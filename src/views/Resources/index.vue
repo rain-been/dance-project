@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Resources</h2>
+        <h2>
+            Resources
+            资源页面
+        </h2>
     </div>
 </template>
 
