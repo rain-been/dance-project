@@ -1,7 +1,7 @@
 <template>
   <div class="filtrate">
     <!-- 筛选菜单 -->
-    <ul class="type-list" ref="bangUlRef" @click="toggleBang">
+    <ul class="type-list">
       <li>
         <a href="javascript:;" class="bang-active" data-bang="integrated">综合榜</a>
       </li>
@@ -37,25 +37,13 @@
 
 <script setup lang='ts'>
 import { ref } from 'vue';
-// import { getProductionListInfo } from '@/api/home.ts';
-const props = defineProps(['filterListData', 'getProductionListInfo', 'filterInfoObj', 'changeFilterInfoObj', 'getRecommendInfo']);
-
-
 const bangUlRef = ref();
-// 切换榜单的回调
-const toggleBang = (e: any) => {
-  if (e.target.nodeName === 'UL' || e.target.nodeName === 'LI') {
-    return;
-  }
-  // 调用函数发送请求重新渲染
-  props.getRecommendInfo(0, true, e.target.dataset.bang);
-  // 把所有的a的颜色改为未激活颜色，把当前的改为激活颜色
-  const AllLiNode = document.querySelectorAll('.type-list li');
-  AllLiNode.forEach((li: any) => {
-    li.firstChild.className = 'not-bang-active';
-  })
-  e.target.className = 'bang-active';
-}
+// // 切换榜单的回调
+// const toggleBang = (e: any) => {
+//   if (e.target.nodeName === 'UL' || e.target.nodeName === 'LI') {
+//     return;
+//   }
+// }
 
 
 // 是否显示筛选按钮图标的布尔值

@@ -5,7 +5,7 @@
 
 
     <!-- 视频播放页 -->
-    <!-- <VideoPlay v-else></VideoPlay> -->
+    <VideoPlay v-else></VideoPlay>
   <!-- </div> -->
 </template>
 

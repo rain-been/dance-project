@@ -1,18 +1,20 @@
 <template>
-
-  <div class="card">
-    <div class="card-img">
+<div class="card-container">
+<div class="card" v-for="(item ,index) in video " :key="item.id">
+    <div class="card-img" >
       <!-- 视频图片 -->
       <a class="card-picture">
-        <img src="https://rs.dance365.com/photo/9674abc7998e40908868c3f53339f587_rs_6a68ebc945474429b6ce57626d2917c5.jpg?imageView2/0/w/300/h/1200/format/webp/ignore-error/1">
+        <img :src="item.cover[0]">
+        
+      <el-icon color="#C0C0C0" :size="20"><VideoPlay /></el-icon>
       </a>
     </div>
 
     <!-- 卡片标题和浏览量、点赞、收藏等 -->
-    <div class="card-main">
+    <div class="card-main" >
       <div class="card-title">
         <span class="production">作品</span>
-        <span class="title">《山鬼完整版》</span>
+        <span class="title">{{item.title}}</span>
       </div>
 
       <p class="browse-people">
@@ -37,8 +39,6 @@
     </div>
 
     <!-- 分割线 -->
-    <!-- <el-divider /> -->
-    <!-- <hr style="background-color: #fff;"> -->
     <div style="height: 1px; background-color: #ccc; margin-top:-20px"></div>
 
     <!-- 卡片底部 -->
@@ -52,32 +52,38 @@
       <span class="time-date">11-22</span>
     </div>
   </div>
+</div>
+
 </template>
 
 <script setup lang='ts'>
-// import moment from 'moment';
-// import { computed } from 'vue';
+import {onMounted,ref} from "vue";
+import {reqVideo} from "@/api/resources/index";
+// 存储轮播图数据
+let video = ref([]);
+onMounted(async () => {
+  let result: any = await reqVideo();
+  video.value = result.content;
+  // video.value = result.content.map((item) => {
+  //   return {
+      
+  //     id:item.id,
+  //     title: item.title,
+  //     // 图片1
+  //     imgUrl:item.cover[0],
 
-// const props = defineProps(['data']);
-
-// const createTime = computed(() => {
-//   // 将当前的时间戳转换为日期的格式
-//   return moment(props.data.createTime).format('MM-DD');
-// })
-
-// // 替换为正确的链接路径
-// const dataLinkUrl = computed(() => {
-//   const rightUrl = props.data.router.replace('wudao://','https://www.');
-//   return rightUrl
-// })
-
-
+  //   };
+  // });
+});
 </script>
 
 <style lang="less" scoped>
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
 .card {
-  float: left;
-  width: 224px;
+ 
   height: 280px;
   background-color: #fff;
   border-radius: 5px;
@@ -92,6 +98,8 @@
       width: 100%;
       height: 126px;
       background-color: #333;
+      position: relative;
+
     }
 
     img {
@@ -193,5 +201,13 @@
     }
   }
 
+}
+.el-icon{
+  position: absolute;
+    bottom: 6px;
+    left: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
 }
 </style>

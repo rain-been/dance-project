@@ -5,15 +5,6 @@
     <div class="cards">
       <!-- 卡片列表 -->
       <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
       <el-button size="large" style="padding: 0 40px">
         <div :style="{ visibility: loading ? 'hidden' : 'visible' }">
           加载更多

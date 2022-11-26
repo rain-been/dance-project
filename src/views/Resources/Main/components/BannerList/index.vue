@@ -1,42 +1,31 @@
 <template>
   <div class="block text-center">
     <el-carousel trigger="click" height="466px">
-      <el-carousel-item >
-        <a style="width: 100%; height: 100%;">
-          <img src="https://rs.dance365.com/photo/1667373574669.jpg?imageView2/0/w/2000/h/1200/format/webp/ignore-error/1" style="width: 100%; height: 100%;">
-          
+      <el-carousel-item v-for="(item ,index) in banner" :key="index">
+        <a style="width: 100%; height: 100%">
+          <img
+            :src="item.imgUrl"
+            style="width: 100%; height: 100%"
+          />
         </a>
-        
-      </el-carousel-item>
-      <el-carousel-item >
-        <a style="width: 100%; height: 100%;">
-          <img src="https://rs.dance365.com/photo/1667373574669.jpg?imageView2/0/w/2000/h/1200/format/webp/ignore-error/1" style="width: 100%; height: 100%;">
-          
-        </a>
-        
-      </el-carousel-item>
-      <el-carousel-item >
-        <a style="width: 100%; height: 100%;">
-          <img src="https://rs.dance365.com/photo/1667373574669.jpg?imageView2/0/w/2000/h/1200/format/webp/ignore-error/1" style="width: 100%; height: 100%;">
-          
-        </a>
-        
-      </el-carousel-item>
-      <el-carousel-item >
-        <a style="width: 100%; height: 100%;">
-          <img src="https://rs.dance365.com/photo/1667373574669.jpg?imageView2/0/w/2000/h/1200/format/webp/ignore-error/1" style="width: 100%; height: 100%;">
-          
-        </a>
-        
       </el-carousel-item>
     </el-carousel>
   </div>
 </template>
 
-<script setup lang='ts'>
-
-
-
+<script setup lang="ts">
+import { onMounted, ref } from "vue";
+import { reqBanner } from "@/api/resources/index";
+// 存储轮播图数据
+let banner = ref([]);
+onMounted(async () => {
+  let result: any = await reqBanner();
+  banner.value = result.map((item) => {
+    return {
+      imgUrl: item.appAdvertiseUrl,
+    };
+  });
+});
 </script>
 
 <style lang="less">
@@ -58,7 +47,7 @@
   width: 14px;
   height: 14px;
   // background: transparent;
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   opacity: 0.5;
 }

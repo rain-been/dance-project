@@ -40,12 +40,14 @@
         </div>
       </div>
     </div>
-
+    <!-- 回到顶部 -->
     <div class="subPage">
       <RouterView></RouterView>
-      
-       <div class="back-top-icon" @click="smoothBackTop"><el-icon><ArrowUpBold /></el-icon></div>
-    </div> 
+
+      <div class="back-top-icon" @click="smoothBackTop">
+        <el-icon><ArrowUpBold /></el-icon>
+      </div>
+    </div>
 
     <!-- 选择兴趣爱好对话框 -->
     <el-dialog
@@ -115,32 +117,25 @@
       </template>
     </el-dialog>
   </div>
- 
-  <!--回到顶部-->
-  <template>
-    666666
-    <el-backtop :bottom="100" :right="50">
-      <div
-        style="
-          height: 100%;
-          width: 100%;
-          background-color: var(--el-bg-color-overlay);
-          box-shadow: var(--el-box-shadow-lighter);
-          text-align: center;
-          line-height: 40px;
-          color: #1989fa;
-        "
-      >
-        UP
-      </div>
-    </el-backtop>
-  </template>
 </template>
 <script setup lang="ts">
 import BannerList from "@/views/Resources/Main/components/BannerList/index.vue";
 import { RouterLink, RouterView } from "vue-router";
 import { useRoute } from "vue-router";
 import { nextTick, onMounted, ref } from "vue";
+import { reqUserSkill,reqBanner } from "@/api/resources/index";
+//定义一个获取视频列表数据
+let viedoList=ref([])
+onMounted(async () => {
+  
+  getVideoList()
+
+});
+//获取视频列表
+const getVideoList =async()=>{
+// let result = await reqUserSkill();
+  // console.log(result.content);
+}
 // 用来选中的渲染兴趣列表的数组
 const hobbyArr = ref<any[]>([]);
 // 用于中间传递已选中兴趣列表的数组的数据
@@ -186,9 +181,9 @@ const onSave = () => {
 const smoothBackTop = () => {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth'
+    behavior: "smooth",
   });
-}
+};
 </script>
 
 <style lang="less" scoped>
@@ -280,7 +275,7 @@ body {
     bottom: 40px;
     width: 40px;
     height: 40px;
-   margin-right: 100px;
+    margin-right: 100px;
     font-size: 40px;
     cursor: pointer;
   }
