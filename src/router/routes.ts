@@ -7,7 +7,7 @@ export const staticRoutes: Array<RouteRecordRaw> =[
     {
         path: '/login',
         name: 'Login',
-        component: () => import('@/views/Login/index.vue'),
+        component: () => import('@/views/login/index.vue'),
     },
     {
         path: '/404',
