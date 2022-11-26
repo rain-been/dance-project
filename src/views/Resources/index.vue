@@ -1,23 +1,22 @@
 <template>
-    <div>
-        <h2>
-            Resources
-            资源页面
-        </h2>
-    </div>
+ 
+    <!-- 主要页面 -->
+    <Main v-if="isShowMain"></Main>
+
+
+    <!-- 视频播放页 -->
+    <!-- <VideoPlay v-else></VideoPlay> -->
+  <!-- </div> -->
 </template>
 
-<script lang="ts">
-import {defineComponent} from 'vue'
-export default defineComponent({
-    name: 'Resources'
-})
-</script>
+<script setup lang='ts'>
+import { ref } from 'vue';
+import Main from './Main/index.vue';
+import VideoPlay from './VideoPlay/index.vue';
 
-<script lang = "ts" setup>
 
+const isShowMain = ref(true);
 </script>
 
 <style scoped>
-
 </style>
