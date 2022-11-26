@@ -5,15 +5,15 @@
         <div class="img">
           <RouterLink to="/resources"><img src="https://rs.dance365.com/logo@3xrenew3.png" alt="" /></RouterLink>
         </div>
-        <RouterLink to="/resources" class="item"  active-class="active" exact
+        <RouterLink to="/resources" class="item"  active-class="active" 
           >资源</RouterLink
         >
-        <RouterLink to="/course" class="item">课程</RouterLink>
-        <RouterLink to="/training" class="item">练习室</RouterLink>
-        <RouterLink to="/communicate" class="item"
+        <RouterLink to="/course" class="item" active-class="active" >课程</RouterLink>
+        <RouterLink to="/training" class="item" active-class="active" >练习室</RouterLink>
+        <RouterLink to="/communicate" class="item" active-class="active" 
           >交流</RouterLink
         >
-        <RouterLink to="/person" class="item">我的</RouterLink>
+        <RouterLink to="/person" class="item" active-class="active" >我的</RouterLink>
       </div>
       <div class="nav-right">
         <div class="down"><span></span>下载APP</div>
@@ -76,7 +76,11 @@ export default defineComponent({
         &.active {
           color: #f93684;
         }
+        
       }
+      .item:hover{
+          color: #f93684;
+        }
     }
     .nav-right {
       height: 60px;
