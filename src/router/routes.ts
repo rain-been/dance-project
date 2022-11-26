@@ -7,7 +7,7 @@ export const staticRoutes: Array<RouteRecordRaw> =[
     {
         path: '/login',
         name: 'Login',
-        component: () => import('@/views/Login/index.vue'),
+        component: () => import('@/views/login/index.vue'),
     },
     {
         path: '/404',
@@ -33,6 +33,34 @@ export const staticRoutes: Array<RouteRecordRaw> =[
         path: '/communicate',
         name: 'Communicate',
         component: () => import('@/views/Communicate/index.vue'),
+        redirect: '/communicate/systemNote',
+        children:[
+            {
+                path:'/communicate/systemNote',
+                name:'systemNote',
+                component:() => import('@/views/Communicate/components/systemNote.vue'),
+                meta:{
+                    name:'systemNote'
+                }
+            },
+            {
+                path:'/communicate/orderNote',
+                name:'orderNote',
+                component:() => import('@/views/Communicate/components/orderNote.vue'),
+                meta:{
+                    name:'orderNote'
+                }
+            },
+            {
+                path:'/communicate/interactNote',
+                name:'interactNote',
+                component:() => import('@/views/Communicate/components/interactNote.vue'),
+                meta:{
+                    name:'interactNote'
+                }
+            },
+
+        ]
     },
     {
         path: '/person',
