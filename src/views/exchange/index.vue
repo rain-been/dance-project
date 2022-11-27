@@ -1,9 +1,11 @@
 <template>
-	<div><h2>交流</h2></div>
+	<div>
+		<h1>交流</h1>
+	</div>
 </template>
+
 <script>
-	
 </script>
+
 <style>
-	
 </style>

@@ -42,13 +42,14 @@ let loadingInstance;
 
 // 全局前置钩子
 router.beforeEach((from,to,next)=>{
-   loadingInstance = ElLoading.service({});
-   next();
+   loadingInstance = ElLoading.service({})
+   next()
 })
 
 // 后置钩子关闭loading
-router.afterEach((from,to)=>{
+router.afterEach((to,next)=>{
    loadingInstance.close();
+   next()
 })
 
 // 导出路由

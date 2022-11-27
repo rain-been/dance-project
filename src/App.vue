@@ -6,6 +6,7 @@
     </div>
   </div>
   <Footer></Footer>
+  
 </template>
 
 <script>

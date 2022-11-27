@@ -1,9 +1,9 @@
 <template>
-	<div><h2>资源</h2></div>
+	<div><h1>资源</h1></div>
 </template>
+
 <script>
-	
 </script>
+
 <style>
-	
 </style>
