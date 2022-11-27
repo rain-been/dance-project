@@ -21,7 +21,7 @@ declare module '@vue/runtime-core' {
     ElRow: typeof import('element-plus/es')['ElRow']
     ElTabPane: typeof import('element-plus/es')['ElTabPane']
     ElTabs: typeof import('element-plus/es')['ElTabs']
-    Footer: typeof import('./src/components/footer/index.vue')['default']
+    Footer: typeof import('./src/components/Footer/index.vue')['default']
     Header: typeof import('./src/components/Header/index.vue')['default']
     ListItemVideo: typeof import('./src/components/ListItemVideo.vue')['default']
     Loading: typeof import('./src/components/Loading/index.vue')['default']

@@ -5,7 +5,7 @@
       <router-view></router-view>
     </div>
   </div>
-  <Footer></Footer>
+  <Footer v-show="$route.meta.isShow"></Footer>
 </template>
 
 <script>
