@@ -1,28 +1,38 @@
 <template>
-  <div>
-    <Header></Header>
-    <router-view></router-view>
-    <Footer></Footer>
+  <TopNav></TopNav>
+  <div class="content">
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
+  <Footer></Footer>
 </template>
 
-<script lang="ts">
-import {defineComponent} from 'vue'
-import Header from "@/components/Header/index.vue";
-import Footer from "@/components/Footer/index.vue";
+<script>
+import TopNav from "@/components/TopNav/index.vue";
+import Footer from "@/components/footer/index.vue";
+import { defineComponent } from "vue";
+import { ElConfigProvider } from 'element-plus'
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 export default defineComponent({
-  name: 'App',
-  components: {
-    Header,
-    Footer
-  }
-})
+  name: "App",
+});
 </script>
 
-<script lang = "ts" setup>
+
+<script setup>
+
+
 
 </script>
 
-<style scoped>
+<script setup></script>
 
+
+<style lang="scss">
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7f9;
+}
 </style>

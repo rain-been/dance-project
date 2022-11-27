@@ -1,23 +1,9 @@
 <template>
-    <div>
-        <h2>
-            Course
-            课程页面
-        </h2>
-    </div>
+	<div><h2>课程</h2></div>
 </template>
-
-<script lang="ts">
-import {defineComponent} from 'vue'
-export default defineComponent({
-    name: 'Course'
-})
+<script>
+	
 </script>
-
-<script lang = "ts" setup>
-
-</script>
-
-<style scoped>
-
+<style>
+	
 </style>
