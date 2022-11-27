@@ -69,7 +69,34 @@ export const staticRoutes: Array<RouteRecordRaw> =[
         path: '/training',
         name: 'Training',
         component: () => import('@/views/Training/index.vue'),
-        meta: { isShow: true },
+        children: [
+            {
+                path: '/training',
+                redirect: '/trainRoom'
+              },
+            {
+                path: '/trainRoom',
+                name:'TrainRoom',
+                component: () => import('@/views/Training/TrainRoom/index.vue'),
+            },
+
+            {
+                path: '/mediaCache',
+                name:'MediaCache',
+                component: () => import('@/views/Training/MediaCache/index.vue')
+            },
+            {
+                path: '/collections',
+                name: 'Collections',
+                component: () => import('@/views/Training/Collections/index.vue')
+            },
+
+            {
+                path: '/view_records',
+                name: 'View_records',
+                component: () => import('@/views/Training/ViewRecords/index.vue')
+            }
+        ]
     },
     {
         path: '/communicate',
