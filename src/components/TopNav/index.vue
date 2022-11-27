@@ -1,166 +1,168 @@
 <template>
-  <div class="shadow-box">
-    <div class="container">
-      <div class="topNav">
-        <div class="topNav_left">
-          <div class="img">
-            <img src="../../assets/images/resource/logo picture.png" />
-          </div>
-          <div class="nav_list">
-            <router-link
-              active-class="active"
-              class="div"
-              to="/resource"
-            >
-              资源
-            </router-link>
-            <router-link
-              active-class="active"
-              class="div"
-              to="/course"
-              >课程
-            </router-link>
-            <router-link
-              active-class="active"
-              class="div"
-              to="/trainingRoom"
-              >练习室
-            </router-link>
-            <router-link
-              active-class="active"
-              class="div"
-              to="/exchange"
-              >交流
-            </router-link>
-            <router-link
-              active-class="active"
-              class="div"
-              to="/personal"
-              >我的
-            </router-link>
-          </div>
+  <div class="header">
+    <div class="wrap">
+      <div class="nav-left">
+        <div class="img">
+          <RouterLink to="/resources"
+            ><img src="https://rs.dance365.com/logo@3xrenew3.png" alt=""
+          /></RouterLink>
         </div>
-        <div class="topNav_left_right">
-          <div class="dobwLoad">
-            <i class="iconfont icon-shouji"></i>
-            <span>下载APP</span>
-          </div>
-          <div class="button">
-            <i>+</i>
-            <div>发布</div>
-          </div>
-          <div class="avter">
-            <img src="../../assets/images/resource/1.png" />
-          </div>
+        <RouterLink to="/resources" class="item" active-class="active"
+          >资源</RouterLink
+        >
+        <RouterLink to="/course" class="item" active-class="active"
+          >课程</RouterLink
+        >
+        <RouterLink to="/training" class="item" active-class="active"
+          >练习室</RouterLink
+        >
+        <RouterLink to="/communicate" class="item" active-class="active"
+          >交流</RouterLink
+        >
+        <RouterLink to="/person" class="item" active-class="active"
+          >我的</RouterLink
+        >
+      </div>
+      <div class="nav-right">
+        <div class="down"><span></span>下载APP</div>
+        <el-dropdown>
+          <el-button class="btn">+ 发布</el-button>
+          <template #dropdown>
+            <el-dropdown-menu style="width: 150px">
+              <div
+                style="
+                  background-color: #ddd;
+                  font-size: 16px;
+                  text-align: center;
+                "
+              >
+                发布资源
+              </div>
+              <el-dropdown-item>作品</el-dropdown-item>
+              <el-dropdown-item divided>教程</el-dropdown-item>
+              <el-dropdown-item divided>动态</el-dropdown-item>
+              <div
+                style="
+                  background-color: #ddd;
+                  font-size: 16px;
+                  text-align: center;
+                "
+              >
+                发布商品
+              </div>
+              <el-dropdown-item>视频课</el-dropdown-item>
+              <el-dropdown-item divided>线下课</el-dropdown-item>
+              <el-dropdown-item divided>直播课</el-dropdown-item>
+            </el-dropdown-menu>
+          </template>
+        </el-dropdown>
+        <div class="avatar" v-if="!userInfoStore.token">
+          <RouterLink to="/login" class="item">登录</RouterLink>
         </div>
+        <div v-else @click="logout">退出登录</div>
       </div>
     </div>
   </div>
 </template>
 
-<script>
-import { defineComponent } from 'vue';
-
+<script lang="ts">
+import { defineComponent } from "vue";
 export default defineComponent({
-  name: 'TopNav',
+  name: "Header",
 });
 </script>
 
-<script setup>
-
+<script lang = "ts" setup>
+import { useUserInfoStore } from "@/store/hei_stores/userInfo";
+const userInfoStore = useUserInfoStore();
+const logout = async () => {
+  try {
+    await userInfoStore.reset();
+    userInfoStore.token = "";
+  } catch (error: any) {
+    return Promise.reject(new Error(error.message));
+  }
+};
 </script>
 
-<style lang="scss" scoped>
-.shadow-box{
-   position: relative;
-  z-index: 999;
-  box-shadow: 4px 0 9px #c1c1c1;
-}
-.container {
+<style scoped lang='less'>
+.header {
+  width: 100%;
   height: 60px;
-  // display: flex;
-  margin: 0 165px;
-  height: 60px;
-  line-height: 60px;
-  
-  .topNav {
+  box-shadow: 0 0 10px 2px #ddd;
+  .wrap {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-
-    .topNav_left {
+    align-items: center;
+    .nav-left {
+      height: 100%;
       display: flex;
-      height: 60px;
+      justify-content: space-around;
       align-items: center;
-
-      .img {
-        display: flex;
-        align-items: center;
-
-        img {
-          width: 128px;
-          height: 30px;
-        }
+      img {
+        cursor: pointer;
+        width: 128px;
+        height: 30px;
+        line-height: 60px;
       }
-
-      .nav_list {
-        display: flex;
+      .item {
+        cursor: pointer;
+        width: 56px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
         margin-left: 40px;
         font-size: 18px;
-
-        .div {
-          margin-right: 30px;
-
-          &.active {
-            color: #f93684;
-          }
+        text-decoration: none;
+        color: black;
+        &.active {
+          color: #f93684;
         }
+      }
+      .item:hover {
+        color: #f93684;
       }
     }
-
-    .topNav_left_right {
+    .nav-right {
+      height: 60px;
       display: flex;
+      justify-content: space-between;
       align-items: center;
-
-      .dobwLoad {
-        margin-right: 20px;
-
-        .icon-shouji {
-          font-size: 20px;
-        }
-
-        span {
-          font-size: 17px;
-        }
+      .down {
+        cursor: pointer;
       }
-
-      .button {
-        border-radius: 15px;
+      .btn {
         width: 75px;
         height: 30px;
-        padding: 0;
         background-color: #f93684;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        border-radius: 15px;
         color: #fff;
-        padding: 0 15px;
-        box-sizing: border-box;
+        font-size: 16px;
+        padding: 0;
+        margin: 0 28px 0 30px;
+        border: none;
+        cursor: pointer;
       }
-
-      .avter {
-        margin-left: 20px;
-
+      .avatar {
+        width: 80px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        .item {
+          text-decoration: none;
+          color: black;
+        }
+        .avat {
+          width: 30px;
+          height: 30px;
+        }
         img {
-          width: 30px;
-          height: 30px;
-          display: flex;
-          align-items: center;
-          width: 30px;
-          height: 30px;
-          cursor: pointer;
-          background: #ccc;
+          width: 100%;
+          height: 100%;
           border-radius: 50%;
         }
       }

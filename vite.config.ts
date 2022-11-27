@@ -30,6 +30,10 @@ export default defineConfig({
         target: 'http://sph-h5-api.atguigu.cn/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/app-dev/, '')
+      },
+      '/api' : {
+        target: 'http://sph-h5-api.atguigu.cn/',
+        changeOrigin: true,
       }
     }
   },
