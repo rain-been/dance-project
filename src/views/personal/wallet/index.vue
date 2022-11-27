@@ -117,8 +117,8 @@ onMounted(() => {
         margin: 0 auto;
         display: block;
         color: #fff;
-        background-color: #fc9bc2;
-        border: 1px solid #fc9bc2;
+        background-color: #b39bfc;
+        border: 1px solid #9bd7fc;
         cursor: not-allowed;
       }
     }

@@ -189,7 +189,7 @@ onMounted(() => {
           border-radius: 4px;
           font-size: 14px;
           color: #fff;
-          background: linear-gradient(#ff289b, #ff43d0);
+          background:yellowgreen;
           font-style: italic;
         }
       }

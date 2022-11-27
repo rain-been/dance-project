@@ -7,7 +7,7 @@
       <el-card class="content">
         <div class="searchInfo">
           <div class="search">
-            <el-input placeholder="请输入优惠券兑换码" v-model="couponsSearch">
+            <el-input placeholder="兑换码" v-model="couponsSearch">
             </el-input>
             <button>兑换</button>
           </div>
@@ -89,9 +89,9 @@ onMounted(() => {
           height: 40px;
           margin-left: 11px;
           color: #fff;
-          background-color: #f93684;
+          background-color: #367df9;
           border-radius: 3px;
-          border: 1px solid #f93684;
+          border: 1px solid #3663f9;
         }
       }
       .link-button {
