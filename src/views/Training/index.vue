@@ -2,9 +2,9 @@
   <div class="contain">
     <el-row>
       <el-col :span="4" :offset="0">
-        <div class="left " ref="trainingNavRef">
+        <div class="left">
           <div class="trandRoom   containLeft">
-            <div class="trand flag">
+            <div class="trand">
               <span>练习室</span>
               <el-icon v-show="arrow == 0" @click="arrowRight">
                 <ArrowRight />
@@ -21,20 +21,20 @@
           </transition>
           <!-- 应用选项卡 -->
           <div class="application containLeft">
-            <router-link to="/mediaCache" class="text active trandRoom">
-
+            <router-link to="/mediaCache" class="text flag trandRoom">
+             
               <span @click="arrowDown">缓存</span>
             </router-link>
             <span class="text trandRoom">
-
+              
               <sapn @click="audio">音频库</sapn>
             </span>
-            <router-link to="/collections" class="text active trandRoom">
-
+            <router-link to="/collections" class="text flag trandRoom">
+              
               <span @click="arrowDown">收藏</span>
             </router-link>
-            <router-link to="/view_records" class="text active trandRoom">
-
+            <router-link to="/view_records" class="text flag trandRoom">
+           
               <span @click="arrowDown">历史</span>
             </router-link>
           </div>
@@ -48,26 +48,27 @@
       </el-col>
     </el-row>
     <!-- 对话框 -->
-    <el-dialog v-model="dialogVisible" close-on-click-modal="false" class="dialogVisible"
-      title='请打开中舞网APP，点击"练习室"-"音频库"中查看。' align-center="true" width="35%">
+    <el-dialog
+    v-model="dialogVisible"
+    close-on-click-modal="false"
+    class="dialogVisible"
+      title='请打开中舞网APP，点击"练习室"-"音频库"中查看。'
+      align-center="true"
+      width="35%">
       <span slot="footer">
         <el-button type="primary" @click="dialogVisible = false" class="btn">确定</el-button>
       </span>
     </el-dialog>
-
+    
   </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { ref } from 'vue';
 // 定义箭头的显示与隐藏
 let arrow = ref(0)
 let num = ref(0)
-const trainingNavRef = ref();
 let dialogVisible = ref(false)
-onMounted(() => {
-  clickHandler();
-})
 //点击箭头的切换
 const arrowRight = () => {
   arrow.value = 1
@@ -76,25 +77,9 @@ const arrowDown = () => {
   arrow.value = 0
 }
 // 点击音频库弹出对话框
-const audio = () => {
+const audio=()=>{
   dialogVisible.value = true
 }
-const clickHandler = () => {
-  const navList = trainingNavRef.value.children;
-  for (let i = 0; i < navList.length; i++) {
-    if (navList[i].classList.contains('text')) {
-      navList[i].onclick = function () {
-        for (let j = 0; j < navList.length; j++) {
-          navList[j].classList.remove('active');
-        };
-        navList[i].classList.add('active');
-      };
-    }
-  }
-
-}
-
-
 </script>
 
 <style scoped>
@@ -139,7 +124,7 @@ const clickHandler = () => {
   position: relative;
 }
 
-.trandRoom .active :after {
+.trandRoom:after {
   content: "";
   width: 4px;
   height: 37px;
@@ -147,8 +132,12 @@ const clickHandler = () => {
   position: absolute;
   top: 18%;
   left: 0%;
-  opacity: 1;
+  opacity: 0;
   transition: all .5s;
+}
+
+.trandRoom:hover:after {
+  opacity: 1;
 }
 
 .contain .left .trandRoom .trand {
@@ -202,12 +191,11 @@ const clickHandler = () => {
   height: 50px;
   opacity: 1;
 }
-
->>>.dialogVisible {
+>>> .dialogVisible {
   height: 130px;
 }
 
->>>.dialogVisible .btn {
+>>> .dialogVisible .btn{
   color: #fff;
   background-color: #f93684;
   border-color: #f93684;
