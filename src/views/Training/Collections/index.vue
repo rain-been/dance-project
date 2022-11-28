@@ -1,11 +1,10 @@
 <template>
   <div class="media">
-    <div class="top   containRight">
-      <p class="active"></p>
-      <span>资源</span>
-      <span>视频课</span>
-      <span>线下课</span>
-      <span>直播课</span>
+    <div class="options containRight" ref="optionsRef" @click="clickHandler">
+      <div class="item active">资源</div>
+      <div class="item">视频课</div>
+      <div class="item">线下课</div>
+      <div class="item">直播课</div>
     </div>
     <div class="center  containRight">
       <div class="search-wrap">
@@ -27,7 +26,25 @@
 </template>
 
 <script setup lang="ts">
-import { Search } from '@element-plus/icons-vue'
+import { onMounted, ref } from 'vue';
+import { Search } from '@element-plus/icons-vue';
+onMounted(() => {
+        clickHandler();
+    })
+const optionsRef = ref();
+const clickHandler = () => {
+  const optionsList = optionsRef.value.children;
+  for (let i = 0; i < optionsList.length; i++) {
+    if (optionsList[i].classList.contains('item')) {
+      optionsList[i].onclick = function () {
+        for (let j = 0; j < optionsList.length; j++) {
+          optionsList[j].classList.remove('active');
+        };
+        optionsList[i].classList.add('active');
+      };
+    };
+  };
+};
 </script>
 
 <style scoped>
@@ -35,11 +52,13 @@ import { Search } from '@element-plus/icons-vue'
   width: 1020px;
 }
 
-.top {
+.options {
   height: 72px;
-  margin-bottom: 10px;
   display: flex;
-  position: relative;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .containRight {
@@ -47,19 +66,20 @@ import { Search } from '@element-plus/icons-vue'
   border-radius: 4px;
 }
 
-.top span {
-  font-size: 14px;
-  display: block;
-  padding: 28px 30px
+.options .item {
+  padding: 28px 30px;
 }
 
-.top .active {
-  position: absolute;
-  left: 26px;
-  top: 51px;
-  background-color: #f93684;
+.options .item:nth-child(1) {
   width: 37px;
-  height: 4px;
+}
+
+.options .active::after {
+  content: "";
+  display: block;
+  margin: 21px auto 0;
+  width: 37px;
+  border-bottom: 5px solid #f93684;
 }
 
 .center {
@@ -115,6 +135,5 @@ import { Search } from '@element-plus/icons-vue'
 
 .wrapper {
   padding: 0 35px 0 22px;
-
 }
 </style>

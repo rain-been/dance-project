@@ -12,8 +12,8 @@
   <div class="center containRight">
     <img src="https://rs.dance365.com/img/no_content@3x.0fd78ad2.png" class="img">
     <!-- 点击创建弹出对话框 -->
-    <el-dialog class="dialog" v-model="dialogVisible" title="请打开 中舞网APP 扫码,使用此功能" width="30%" 
-      center>
+    <el-dialog class="dialog" v-model="dialogVisible" title="请打开 中舞网APP 扫码,使用此功能" width="25%" 
+      >
       <span>
         <img src="https://rs.dance365.com/dace365_contact_qrcode_410.png">
         <p>扫描此二维码，同样可下载</p>
@@ -89,19 +89,22 @@ let num = ref(0)
   top: 40%
 }
 
-.dialog {
+>>> .dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+>>> .dialog span {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.dialog span {
-  display: flex;
-  flex-direction: column;
-}
-
-.dialog span img {
+>>> .dialog span img {
   width: 130px;
   height: 130px;
 

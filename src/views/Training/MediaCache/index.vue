@@ -1,9 +1,9 @@
 <template>
   <div class="media">
-    <div class="top   containRight">
-      <span @click="num = 0" :class="{ active:  num == 0 }" >资源</span>
-      <span @click="num = 1" :class="{ active: num == 1 }">视频课</span>
-      <span @click="num = 2" :class="{ active: num == 2 }">直播课</span>
+    <div class="options containRight" ref="optionsRef" @click="clickHandler">
+      <div class="item active">资源</div>
+      <div class="item">视频课</div>
+      <div class="item">直播课</div>
     </div>
     <div class="center  containRight">
       <div class='search'>
@@ -21,9 +21,26 @@
 
 <script setup lang="ts">
 import { Search } from '@element-plus/icons-vue'
-import { ref } from 'vue';
+import { onMounted, ref } from 'vue';
 //定义响应式数据
 let num = ref(0)
+onMounted(() => {
+        clickHandler();
+    })
+const optionsRef = ref();
+const clickHandler = () => {
+  const optionsList = optionsRef.value.children;
+  for (let i = 0; i < optionsList.length; i++) {
+    if (optionsList[i].classList.contains('item')) {
+      optionsList[i].onclick = function () {
+        for (let j = 0; j < optionsList.length; j++) {
+          optionsList[j].classList.remove('active');
+        };
+        optionsList[i].classList.add('active');
+      };
+    };
+  };
+};
 </script>
 
 <style scoped>
@@ -31,11 +48,13 @@ let num = ref(0)
   width: 1020px;
 }
 
-.top {
+.options {
   height: 72px;
-  margin-bottom: 10px;
   display: flex;
-  position: relative;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .containRight {
@@ -43,14 +62,20 @@ let num = ref(0)
   border-radius: 4px;
 }
 
-.top span {
-  font-size: 14px;
-  display: block;
-  padding: 28px 30px
+.options .item {
+  padding: 28px 30px;
 }
 
-.top .active{
-  border-bottom: #f93684 5px solid;
+.options .item:nth-child(1) {
+  width: 37px;
+}
+
+.options .active::after {
+  content: "";
+  display: block;
+  margin: 21px auto 0;
+  width: 37px;
+  border-bottom: 5px solid #f93684;
 }
 
 .center {
