@@ -6,19 +6,24 @@
     <div class="center  containRight">
       <div class="search-wrap">
         <div class='search'>
-          <el-input :prefix-icon="Search" size="normal" class="input" v-model="input"></el-input>
+          <el-input :prefix-icon="Search" size="normal" class="input" v-model="search"></el-input>
           <el-button class="search-btn">搜索</el-button>
         </div>
         <div class="delete">
-          <span>批量删除</span>
+          <span v-show="show" @click="showDel">批量删除</span>
+          <div v-show="!show" class="showDel">
+            <span @click="cancel">取消</span>
+            <span>确定</span>
+            <span>全选</span>
+          </div>
         </div>
       </div>
-      <div class="wrapper containRight">
+      <div v-show="!search.length" class="wrapper containRight">
         <div class="more" v-for="(item, index) in data" :key="item.id">
           <div class="more-left">
             <img class="img" :src="item.cover">
             <div class="title">
-              <span class="">{{ item.title }}</span>
+              <span>{{ item.title }}</span>
               <span style="font-size : 14px">动态</span>
               <div class="name">
                 <img class="avatar" :src="item.avatar">
@@ -26,29 +31,36 @@
               </div>
             </div>
           </div>
-          <span>昨天15:06</span>
-          <el-button>删除</el-button>
+          <span>{{ item.updateTime }}</span>
+          <el-button class="deleteBtn" @click="del(index)">删除</el-button>
         </div>
       </div>
+
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { Search } from '@element-plus/icons-vue'
-import { ref, onMounted } from "vue";
+import { ref, onMounted, computed } from "vue";
+import moment from 'moment'
 //引入接口
 import { reqTraining } from '@/api/tuo_api/training/index'
 //模拟响应式数据
-let input = ref('')
+let search = ref('')
+//定义批量删除显示与隐藏
+let show = ref(true)
 // 存储历史观看数据
 let data = ref([])
+// 存储筛选后的历史观看数据
+let dataList = ref([])
 onMounted(() => {
   getHistory()
 });
 const getHistory = async () => {
   let result: any = await reqTraining();
   data.value = result.content.map(item => {
+    let time = moment(item.updateTime).format('MM-DD');
     return {
       id: item.id,
       // 标题
@@ -64,13 +76,21 @@ const getHistory = async () => {
       //名字
       name: item.momentBackup.creatorBackup.name,
       // 时间戳
-      updateTime: item.updateTime
+      updateTime: time
     }
   })
-  // const createTime = computed(() => {
-  //   // 将当前的时间戳转换为日期的格式
-  //   return moment(props.data.createTime).format('MM-DD');
-  // })
+}
+// 点击删除当前一行
+const del = (index: any) => {
+  data.value.splice(index, 1)
+}
+// 点击批量删除
+const showDel = () => {
+  show.value = false
+}
+// 点击取消
+const cancel =()=>{
+  show.value=true
 }
 </script>
 
@@ -157,6 +177,26 @@ const getHistory = async () => {
   justify-content: space-around;
 }
 
+.center .more1 {
+  width: 963px;
+  height: 60px;
+  border-bottom: 1px solid #ebeef5;
+  font-size: 12px;
+  color: #909399;
+  text-align: center;
+  line-height: 60px;
+}
+
+.center .wrapper1 {
+  height: 700px;
+  padding: 0 35px 0 22px;
+  margin-bottom: 20px;
+}
+
+.wrapper1 {
+  padding: 0 35px 0 22px;
+}
+
 .center .more .img {
   width: 169px;
   height: 101px;
@@ -189,5 +229,18 @@ const getHistory = async () => {
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
+}
+.showDel span{
+  font-size: 16px;
+  margin:0 10px;
+  color: #f93684;
+}
+>>>.deleteBtn {
+  color: #bbb;
+  border: transparent
+}
+
+>>>.deleteBtn:hover {
+  color: #f93684
 }
 </style>
