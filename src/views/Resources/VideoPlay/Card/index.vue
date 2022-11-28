@@ -200,12 +200,4 @@ onMounted(async () => {
   }
 
 }
-.el-icon{
-  position: absolute;
-    bottom: 6px;
-    left: 10px;
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-}
 </style>
