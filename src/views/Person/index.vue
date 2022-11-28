@@ -8,16 +8,16 @@
           <img v-else src="../../assets/images/personal/1.png" alt="" />
         </div>
         <div class="myinfo">
-          <span class="name">比好</span>
-          <span class="level"> Lv.3极</span>
+          <span class="name">忠武王用户</span>
+          <span class="level"> Lv.3</span>
         </div>
         <div class="myfollow">
           <div>
-            <p>0</p>
+            <p>999w</p>
             <p>关注</p>
           </div>
           <div>
-            <p>0</p>
+            <p>999w</p>
             <p>粉丝</p>
           </div>
         </div>
@@ -160,7 +160,7 @@ export default defineComponent({
           border-radius: 4px;
           font-size: 14px;
           color: #fff;
-          background: linear-gradient(#ff289b, #ff43d0);
+          background: linear-gradient(#7328ff, #43e0ff);
           font-style: italic;
         }
       }
