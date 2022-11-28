@@ -7,28 +7,15 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Animation: typeof import('./src/components/animation/index.vue')['default']
-    CardItem: typeof import('./src/components/CardItem/index.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
-    ElCheckbox: typeof import('element-plus/es')['ElCheckbox']
     ElDropdown: typeof import('element-plus/es')['ElDropdown']
     ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
     ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
-    ElForm: typeof import('element-plus/es')['ElForm']
-    ElFormItem: typeof import('element-plus/es')['ElFormItem']
-    ElInput: typeof import('element-plus/es')['ElInput']
-    ElRow: typeof import('element-plus/es')['ElRow']
-    ElTabPane: typeof import('element-plus/es')['ElTabPane']
-    ElTabs: typeof import('element-plus/es')['ElTabs']
-    Footer: typeof import('./src/components/Footer/index.vue')['default']
-    Header: typeof import('./src/components/Header/index.vue')['default']
-    ListItemVideo: typeof import('./src/components/ListItemVideo.vue')['default']
-    Loading: typeof import('./src/components/Loading/index.vue')['default']
+    ElMenu: typeof import('element-plus/es')['ElMenu']
+    ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+    ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Swiper: typeof import('./src/components/Swiper/index.vue')['default']
-    Tags: typeof import('./src/components/Tags/index.vue')['default']
-    TopNav: typeof import('./src/components/TopNav/index.vue')['default']
   }
 }

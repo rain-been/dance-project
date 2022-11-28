@@ -1,0 +1,18 @@
+.channel_modal .el-input--prefix .el-input__inner{
+    padding-left: 33px;
+    background: #f5f7f9;
+    border: 1px solid #eaecf0;
+}
+.el-input__wrapper{
+    display: inline-flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 11px;
+    background-color: #f5f7f9 !important;
+    background-image: none;
+}
+
+.circular .path{
+   stroke: #f93684 !important;
+}
