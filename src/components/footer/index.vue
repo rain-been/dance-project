@@ -1,95 +1,130 @@
 <template>
-	<div>
-		<div class="footer_wrapper">
-		    <div>
-		      <div class="top">
-		          <div class="item">关于我们</div>
-		          <div class="item">|</div>
-		          <div class="item">用户隐私政策</div>
-		          <div class="item">|</div>
-		          <div class="item">用户服务协议</div>
-		          <div class="item">|</div>
-		          <div class="item">联系我们</div>
-		      </div>
-		    </div>
-			<div class="icons">
-				<div>
-					<svg t="1669557608792" class="icon" viewBox="0 0 1284 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4933" width="200" height="200"><path d="M558.755355 679.972943c0 165.086809 162.777903 299.003382 362.498309 299.003382 48.487035 0 95.819617-8.081172 137.379932-21.934611 11.544532 5.772266 94.665163 77.348365 113.136415 64.64938 12.698985-10.390079-30.015784-87.738444-33.479143-101.591883 87.738444-54.259301 145.461105-141.997745 145.461105-240.126268 0-165.086809-162.777903-299.003382-362.498309-299.003383S558.755355 514.886133 558.755355 679.972943z m438.692221-105.055243c0-28.86133 23.089064-51.950395 51.950395-51.950394s51.950395 23.089064 51.950394 51.950394-23.089064 51.950395-51.950394 51.950395-51.950395-23.089064-51.950395-51.950395z m-255.13416 0c0-28.86133 23.089064-51.950395 51.950395-51.950394s51.950395 23.089064 51.950394 51.950394-23.089064 51.950395-51.950394 51.950395-51.950395-23.089064-51.950395-51.950395z" p-id="4934" fill="#e6e6e6"></path><path d="M526.430665 677.664036c0-180.094701 177.785795-325.555806 395.977452-325.555806 11.544532 0 23.089064 0 33.479143 1.154453C931.643743 154.696731 727.305524 0 479.098083 0 214.728298 0 0 176.631342 0 394.822999c0 129.29876 76.193912 244.744081 192.793687 316.32018-4.617813 17.316798-60.031567 120.063134-43.869223 133.916573 24.243517 16.162345 133.916573-78.502818 148.924465-85.429538 55.413754 18.471251 116.599775 28.86133 181.249154 28.861331 23.089064 0 46.178129-1.154453 69.267193-4.617813-13.853439-32.32469-21.934611-68.11274-21.934611-106.209696zM646.493799 184.712514c38.096956 0 69.267193 31.170237 69.267193 69.267193 1.154453 38.096956-30.015784 69.267193-69.267193 69.267193-38.096956 0-69.267193-31.170237-69.267192-69.267193s31.170237-69.267193 69.267192-69.267193zM310.547914 323.2469c-38.096956 0-69.267193-31.170237-69.267192-69.267193s31.170237-69.267193 69.267192-69.267193 69.267193 31.170237 69.267193 69.267193-31.170237 69.267193-69.267193 69.267193z" p-id="4935" fill="#e6e6e6"></path></svg>
-				</div>
-				<div>
-					<svg t="1669557584458" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3914" width="200" height="200"><path d="M944.626667 731.686667a149.82 149.82 0 0 0-31.713334-66.313334L758.766667 480.4A148.926667 148.926667 0 0 0 644.046667 426.666667H379.953333a148.926667 148.926667 0 0 0-114.72 53.733333L111.086667 665.373333a149.82 149.82 0 0 0-31.713334 66.313334L58.393333 836.6A85.333333 85.333333 0 0 0 142.066667 938.666667h739.866666a85.333333 85.333333 0 0 0 83.673334-102.066667zM512 725.333333c-94.253333 0-170.666667-47.753333-170.666667-106.666666s76.413333-106.666667 170.666667-106.666667 170.666667 47.753333 170.666667 106.666667-76.413333 106.666667-170.666667 106.666666z m469.333333-405.333333v53.333333a53.393333 53.393333 0 0 1-53.333333 53.333334h-192a53.393333 53.393333 0 0 1-53.333333-53.333334v-53.333333c0-13.253333-16.666667-28.9-43.566667-40.846667C605.506667 264.22 560.366667 256 512 256s-93.506667 8.22-127.1 23.153333C358 291.1 341.333333 306.746667 341.333333 320v53.333333a53.393333 53.393333 0 0 1-53.333333 53.333334H96a53.393333 53.393333 0 0 1-53.333333-53.333334v-53.333333c0-65.666667 50.92-126.08 143.38-170.113333C273.466667 108.26 389.226667 85.333333 512 85.333333s238.533333 22.926667 325.953333 64.553334C930.413333 193.92 981.333333 254.333333 981.333333 320z" fill="#e6e6e6" p-id="3915"></path></svg>
-				</div>
-			</div>
-		    <div>
-		      <div class="infoone">
-		        <p>
-		          Copyright © 2010-2022 南京爱一格网络科技有限公司 版权所有</p>
-		      </div>
-		      <div class="info"> 
-		        <p> 经营性许可证编号： 苏B2-20180515   苏网文〔2021〕4647-106号</p>
-		      </div>
-		      <div class="info">
-		        <p>苏ICP备20036081号</p>
-		      </div>
-		    </div>
-		  </div>
-	</div>
+  <div class="footer">
+    <div class="content-width">
+      <ul class="business_info">
+        <li class="item_info">
+          <RouterLink class="item" to="/resources">关于我们</RouterLink>
+        </li>
+        <li class="item_info">
+          <RouterLink class="item" to="/resources"
+            >用户隐私权政策</RouterLink
+          >
+        </li>
+        <li class="item_info">
+          <RouterLink class="item" to="/resources">用户服务协议</RouterLink>
+        </li>
+        <li class="item_info">
+          <RouterLink class="item" to="/resources">联系我们</RouterLink>
+        </li>
+      </ul>
+      <address class="contact_info">
+        <div
+          class="wechat icon_box el-tooltip"
+          aria-describedby="el-tooltip-4992"
+          tabindex="0"
+        ></div>
+        <div class="blog icon_box" style="display: none"></div>
+        <div
+          class="phone icon_box el-tooltip"
+          aria-describedby="el-tooltip-8357"
+          tabindex="0"
+        ></div>
+      </address>
+      <!---->
+      <div class="copy_right">
+        <p class="info">
+          Copyright © 2010-2022 南京爱一格网络科技有限公司 版权所有
+        </p>
+        <p class="info">
+          经营性许可证编号：
+          <a
+            href="https://beian.miit.gov.cn/"
+            target="_blank"
+            rel="noopener"
+            class="info"
+            >苏B2-20180515</a
+          >&nbsp;&nbsp;
+          <a
+            href="http://ccm.mct.gov.cn/ccnt/sczr/service/business/emark/toDetail/b324ae6cb184469691bb4a8e75a93b41"
+            target="_blank"
+            rel="noopener"
+            class="info"
+            ><img
+              src="https://rs.dance365.com/jinying.png"
+              style="width: 20px; height: 20px; position: relative; top: 5px"
+            />苏网文〔2021〕4647-106号</a
+          >
+        </p>
+        <a
+          href="https://beian.miit.gov.cn/"
+          target="_blank"
+          rel="noopener"
+          class="info"
+          >苏ICP备20036081号</a
+        >
+        <p class="info" style="margin-top: 8px">
+          <a
+            target="_blank"
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32010602010735"
+            class="info"
+            ><div
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <img src="https://rs.dance365.com/pc/gongan.png" />苏公网安备
+              32010602010735号
+            </div></a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
 </template>
 
-<script>
-	import { defineComponent } from 'vue';
-	
-	export default defineComponent({
-	  name: 'Footer',
-	});
+<script lang="ts">
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "Footer",
+});
 </script>
 
-<style>
-	.icons{
-		display: flex;
-		justify-content: center;
-		margin-top: 30px;
-		margin-bottom: 20px;
-	}
-	.icon{
-		width: 30px;
-		height: 30px;
-		margin-left: 80px;
-	}
-	.footer_wrapper{
-	  width: 100%;
-	    text-align: center;
-	    background-color: #221f23;
-	    
-	   
-	}
-	 .top {
-	  padding-top: 20px;
-	  color: #b1b5c1;
-	  font-size: 14px;
-	  display: flex;
-	  justify-content: center;
-	}
-	.item{
-	 margin-left: 70px;
-	}
-	.item:hover{
-		color: aqua;
-	}
-	.info{
-	  padding-top: 6px;
-	  padding-bottom: 2px;
-	  color: #b1b5c1;
-	  font-size: 14px;
-	  display: flex;
-	  justify-content: center;
-	}
-	.infoone{
-	  padding-top: 30px;
-	  color: #b1b5c1;
-	  font-size: 14px;
-	  display: flex;
-	  justify-content: center;
-	  padding-bottom: 2px;
-	}
+<script lang = "ts" setup>
+</script>
+
+<style scoped lang='less'>
+.footer {
+  text-align: center;
+  background-color: #221f23;
+  color: #b1b5c1;
+  font-size: 14px;
+  .content-width {
+    box-sizing: border-box;
+    padding: 24px 40px 18px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    .business_info {
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      .item {
+        text-decoration: none;
+        color: #b1b5c1;
+      }
+      :hover {
+        color: #f93684;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #b1b5c1;
+  }
+}
 </style>

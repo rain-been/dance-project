@@ -5,13 +5,12 @@
       <router-view></router-view>
     </div>
   </div>
-  <Footer></Footer>
-  
+  <Footer v-show="$route.meta.isShow"></Footer>
 </template>
 
 <script>
 import TopNav from "@/components/TopNav/index.vue";
-import Footer from "@/components/footer/index.vue";
+import Footer from "@/components/Footer/index.vue";
 import { defineComponent } from "vue";
 import { ElConfigProvider } from 'element-plus'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
