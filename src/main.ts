@@ -6,14 +6,10 @@ import moment from 'moment'
 import ElementPlus from "element-plus";
 import zhCn from "element-plus/es/locale/lang/zh-cn";
 import "element-plus/dist/index.css";
-<<<<<<< HEAD
-import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import '@/mock/mackServe';
-=======
 import Header from '@/components/Header/index.vue'
 import Footer from '@/components/footer/index.vue'
 import TopNav from '@/components/TopNav/index.vue'
->>>>>>> b82ef28c1f878a86f1ba02d554cbafd91cc30f45
 import pinia from "@/store/hei_stores";
 
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";

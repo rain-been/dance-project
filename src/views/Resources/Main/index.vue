@@ -50,11 +50,12 @@
     </div>
 
     <!-- 选择兴趣爱好对话框 -->
-    <el-dialog v-model="dialogVisible" title="选择我的兴趣技能 0/7" width="1040px" >
+    <el-dialog v-model="dialogVisible"  width="1040px" >
+    <span>选择我的兴趣技能 {{hobbyArr.length}} /7</span>
     <!-- 搜索输入框区域 -->
       <el-form :inline="true">
         <el-form-item>
-          <el-input style="width: 300px" placeholder="搜索兴趣技能" size="large"></el-input>
+          <el-input style="width: 300px" placeholder="搜索兴趣技能" v-model="input" size="large"  :prefix-icon="Search"></el-input>
         </el-form-item>
         <el-form-item>
           <el-button :disabled="!searchKeyword.length" style="width: 80px">搜索</el-button>
@@ -90,8 +91,11 @@
 import BannerList from "@/views/Resources/Main/components/BannerList/index.vue";
 import { RouterLink, RouterView } from "vue-router";
 import { useRoute } from "vue-router";
+import { Search } from '@element-plus/icons-vue'
 import { nextTick, onMounted, ref } from "vue";
 import { reqUserSkill } from "@/api/resources/index";
+//存储文本框数据
+let input= ref()
 //定义一个获取视频列表数据
 let viedoList = ref([]);
 onMounted(async () => {

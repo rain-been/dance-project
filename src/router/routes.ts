@@ -21,6 +21,7 @@ export const staticRoutes: Array<RouteRecordRaw> =[
         name: 'Resources',
         component: () => import('@/views/Resources/index.vue'),
         redirect:'/resources/recommend',
+        meta: { isShow: true},
         children: [
             {
                 path: 'recommend',
