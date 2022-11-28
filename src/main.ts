@@ -9,6 +9,9 @@ import "element-plus/dist/index.css";
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import '@/mock/mackServe';
 import pinia from "@/store/hei_stores";
+import Header from '@/components/Header/index.vue'
+import Footer from '@/components/footer/index.vue'
+import TopNav from '@/components/TopNav/index.vue'
 
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 import router from './router';
@@ -17,6 +20,7 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component);
 }
 import "@/mock/mockServe";
+import { prototype } from 'events';
 app.config.globalProperties.$moment = moment
 // //全局注册组件
 app.component('Header', Header);

@@ -160,11 +160,8 @@ export default defineComponent({
           border-radius: 4px;
           font-size: 14px;
           color: #fff;
-<<<<<<< HEAD:src/views/personal/index.vue
           background:yellowgreen;
-=======
           background: linear-gradient(#7328ff, #43e0ff);
->>>>>>> dev:src/views/Person/index.vue
           font-style: italic;
         }
       }
