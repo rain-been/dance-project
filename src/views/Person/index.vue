@@ -8,7 +8,6 @@
           <img v-else src="../../assets/images/personal/1.png" alt="" />
         </div>
         <div class="myinfo">
-<<<<<<< HEAD
           <span class="name">忠武王用户</span>
           <span class="level"> Lv.3</span>
         </div>
@@ -19,18 +18,6 @@
           </div>
           <div>
             <p>999w</p>
-=======
-          <span class="name">比好</span>
-          <span class="level"> Lv.3极</span>
-        </div>
-        <div class="myfollow">
-          <div>
-            <p>0</p>
-            <p>关注</p>
-          </div>
-          <div>
-            <p>0</p>
->>>>>>> 857d9d6b9c906b5a357dd74d2d2680d45a800d8a
             <p>粉丝</p>
           </div>
         </div>
@@ -173,11 +160,7 @@ export default defineComponent({
           border-radius: 4px;
           font-size: 14px;
           color: #fff;
-<<<<<<< HEAD
           background: linear-gradient(#7328ff, #43e0ff);
-=======
-          background: linear-gradient(#ff289b, #ff43d0);
->>>>>>> 857d9d6b9c906b5a357dd74d2d2680d45a800d8a
           font-style: italic;
         }
       }

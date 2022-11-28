@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div>
     <div class="right">
       <el-card class="topHeader">
@@ -281,24 +280,3 @@ export default defineComponent({
   color: #f93684;
 }
 </style>
-=======
-    <div>
-        <h2>editInfo</h2>
-    </div>
-</template>
-
-<script lang="ts">
-import {defineComponent} from 'vue'
-export default defineComponent({
-    name: 'editInfo'
-})
-</script>
-
-<script lang = "ts" setup>
-
-</script>
-
-<style scoped>
-
-</style>
->>>>>>> 857d9d6b9c906b5a357dd74d2d2680d45a800d8a

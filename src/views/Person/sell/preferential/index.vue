@@ -1,6 +1,5 @@
 <template>
     <div>
-<<<<<<< HEAD
       <div class="right">
         <!-- 菜单栏 -->
         <el-card class="topHeader">
