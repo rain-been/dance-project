@@ -7,10 +7,9 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Animation: typeof import('./src/components/animation/index.vue')['default']
-    CardItem: typeof import('./src/components/CardItem/index.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
+<<<<<<< HEAD
     ElCol: typeof import('element-plus/es')['ElCol']
     ElDialog: typeof import('element-plus/es')['ElDialog']
     ElDropdown: typeof import('element-plus/es')['ElDropdown']
@@ -22,10 +21,15 @@ declare module '@vue/runtime-core' {
     Header: typeof import('./src/components/Header/index.vue')['default']
     ListItemVideo: typeof import('./src/components/ListItemVideo.vue')['default']
     Loading: typeof import('./src/components/Loading/index.vue')['default']
+=======
+    ElDropdown: typeof import('element-plus/es')['ElDropdown']
+    ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
+    ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
+    ElMenu: typeof import('element-plus/es')['ElMenu']
+    ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+    ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
+>>>>>>> 857d9d6b9c906b5a357dd74d2d2680d45a800d8a
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Swiper: typeof import('./src/components/Swiper/index.vue')['default']
-    Tags: typeof import('./src/components/Tags/index.vue')['default']
-    TopNav: typeof import('./src/components/TopNav/index.vue')['default']
   }
 }
