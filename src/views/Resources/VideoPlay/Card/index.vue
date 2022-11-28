@@ -25,15 +25,15 @@
       <!-- 点赞、消息、收藏 -->
       <ul>
         <li>
-          <i class="iconfont icon-dianzan"></i>
+          <el-icon><Pointer /></el-icon>
           <el-icon><Pointer /></el-icon><span>0</span>
         </li>
         <li>
-          <i class="iconfont icon-xiaoxi"></i>
+         <el-icon><ChatDotRound /></el-icon>
           <el-icon><ChatDotRound /></el-icon><span>12</span>
         </li>
         <li>
-          <i class="iconfont icon-star"></i>
+          <el-icon><Star /></el-icon>
           <el-icon><Star /></el-icon><span>100</span>
         </li>
       </ul>

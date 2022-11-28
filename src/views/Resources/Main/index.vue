@@ -144,10 +144,10 @@ const onCancel = () => {
 // 确定按钮的回调
 const onSave = () => {
   // 清除全部兴趣标签数组 和关闭对话框
-  allHobbyArr.value = [];
+  // allHobbyArr.value = [];
   // 点击保存按钮的时候另存一份
   passHobbyArr.value = hobbyArr.value;
-  hobbyArr.value = [];
+  // hobbyArr.value = [];
   // 关闭对话框
   dialogVisible.value = false;
 };
