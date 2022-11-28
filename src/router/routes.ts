@@ -101,7 +101,34 @@ export const staticRoutes: Array<RouteRecordRaw> =[
         path: '/training',
         name: 'Training',
         component: () => import('@/views/Training/index.vue'),
-        meta: { isShow: true },
+        children: [
+            {
+                path: '/training',
+                redirect: '/trainRoom'
+              },
+            {
+                path: '/trainRoom',
+                name:'TrainRoom',
+                component: () => import('@/views/Training/TrainRoom/index.vue'),
+            },
+
+            {
+                path: '/mediaCache',
+                name:'MediaCache',
+                component: () => import('@/views/Training/MediaCache/index.vue')
+            },
+            {
+                path: '/collections',
+                name: 'Collections',
+                component: () => import('@/views/Training/Collections/index.vue')
+            },
+
+            {
+                path: '/view_records',
+                name: 'View_records',
+                component: () => import('@/views/Training/ViewRecords/index.vue')
+            }
+        ]
     },
     {
         path: '/communicate',
@@ -114,6 +141,86 @@ export const staticRoutes: Array<RouteRecordRaw> =[
         name: 'Person',
         component: () => import('@/views/Person/index.vue'),
         meta: { isShow: true },
+        children: [
+            {
+                path: '/dynamics',
+                name: 'dynamics',
+                component: () => import('@/views/Person/dynamics/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/myMember',
+                name: 'myMember',
+                component: () => import('@/views/Person/myMember/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/wallet',
+                name: 'wallet',
+                component: () => import('@/views/Person/wallet/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/coupons',
+                name: 'coupons',
+                component: () => import('@/views/Person/coupons/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/buyOrder',
+                name: 'buyOrder',
+                component: () => import('@/views/Person/buyOrder/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/customers',
+                name: 'customers',
+                component: () => import('@/views/Person/sell/customers/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/deposit',
+                name: 'deposit',
+                component: () => import('@/views/Person/sell/deposit/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/goods',
+                name: 'goods',
+                component: () => import('@/views/Person/sell/goods/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/orders',
+                name: 'orders',
+                component: () => import('@/views/Person/sell/orders/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/payments',
+                name: 'payments',
+                component: () => import('@/views/Person/sell/payments/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/preferential',
+                name: 'preferential',
+                component: () => import('@/views/Person/sell/preferential/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/evaluate',
+                name: 'evaluate',
+                component: () => import('@/views/Person/sell/evaluate/index.vue'),
+                meta: { isShow: true },
+            },
+            {
+                path: '/editInfo',
+                name: 'editInfo',
+                component: () => import('@/views/Person/editInfo/index.vue'),
+                meta: { isShow: true },
+            }
+        ]
     },
     /* 匹配任意路由，必须放到最后 */
     {
