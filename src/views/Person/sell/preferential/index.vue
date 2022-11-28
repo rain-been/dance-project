@@ -335,7 +335,6 @@
           font-size: 14px;
           // background-color: pink;
         }
-  
         :deep(.el-select .el-input__wrapper.is-focus) {
           box-shadow: 0 0 0 1px #f93684 inset !important;
         }
@@ -361,24 +360,3 @@
     font-weight: 700;
   }
   </style>
-  
-=======
-        <h2>preferential</h2>
-    </div>
-</template>
-
-<script lang="ts">
-import {defineComponent} from 'vue'
-export default defineComponent({
-    name: 'preferential'
-})
-</script>
-
-<script lang = "ts" setup>
-
-</script>
-
-<style scoped>
-
-</style>
->>>>>>> 857d9d6b9c906b5a357dd74d2d2680d45a800d8a
