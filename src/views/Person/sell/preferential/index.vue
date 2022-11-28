@@ -335,7 +335,6 @@
           font-size: 14px;
           // background-color: pink;
         }
-  
         :deep(.el-select .el-input__wrapper.is-focus) {
           box-shadow: 0 0 0 1px #f93684 inset !important;
         }
