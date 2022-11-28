@@ -10,6 +10,8 @@ import Header from '@/components/Header/index.vue'
 import Footer from '@/components/footer/index.vue'
 import TopNav from '@/components/TopNav/index.vue'
 import pinia from "@/store/hei_stores";
+import vue3videoPlay from 'vue3-video-play' ;// 引入组件
+import 'vue3-video-play/dist/style.css'; // 引入css
 
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
 import router from './router';
@@ -23,6 +25,7 @@ app.config.globalProperties.$moment = moment
 app.component('Header', Header);
 app.component('Footer', Footer);
 app.component('TopNav', TopNav);
+app.use(vue3videoPlay);
 app.use(pinia)
 .use(router)
 .use(ElementPlus, {
