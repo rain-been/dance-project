@@ -1,13 +1,4 @@
 <template>
-<<<<<<< HEAD
-	<div><h2>课程</h2></div>
-</template>
-<script>
-	
-</script>
-<style>
-	
-=======
   <div class="course">
     <el-card shadow="always">
       <!-- nav 导航 -->
@@ -128,7 +119,4 @@ const toRoute = (num: number) => {
   align-items: center;
   flex-direction: column;
 }
-
-
- wumain
 </style>
