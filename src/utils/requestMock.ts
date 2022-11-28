@@ -1,7 +1,6 @@
-
 import axios, { type AxiosResponse } from "axios";
 import { ElMessage, ElMessageBox } from "element-plus";
-import pinia from "@/store/index";
+import pinia from "@/stores/index";
 
 /* 定义response对象的data接口 */
 interface ResponseData<T> {
@@ -25,7 +24,6 @@ service.interceptors.request.use(
   function (error) {
     return Promise.reject(error);
   }
-
 );
 
 // 添加响应拦截器
