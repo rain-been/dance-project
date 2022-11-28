@@ -81,7 +81,10 @@ export const staticRoutes: Array<RouteRecordRaw> =[
         path: '/person',
         name: 'Person',
         component: () => import('@/views/Person/index.vue'),
+<<<<<<< HEAD
         redirect: '/dynamics',
+=======
+>>>>>>> 857d9d6b9c906b5a357dd74d2d2680d45a800d8a
         meta: { isShow: true },
         children: [
             {
