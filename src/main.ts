@@ -12,13 +12,18 @@ import Header from '@/components/Header/index.vue'
 import Footer from '@/components/footer/index.vue'
 import TopNav from '@/components/TopNav/index.vue'
 import pinia from "@/store/hei_stores";
+
 import vue3videoPlay from 'vue3-video-play' ;// 引入组件
 import 'vue3-video-play/dist/style.css'; // 引入css
+
 import router from './router';
 const app = createApp(App);
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component);
 }
+
+import "@/mock/mockServe";
+import { prototype } from 'events';
 app.config.globalProperties.$moment = moment
 // //全局注册组件
 app.component('Header', Header);

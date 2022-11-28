@@ -14,6 +14,7 @@ declare module '@vue/runtime-core' {
     ElCard: typeof import('element-plus/es')['ElCard']
     ElCarousel: typeof import('element-plus/es')['ElCarousel']
     ElCarouselItem: typeof import('element-plus/es')['ElCarouselItem']
+    ElCheckbox: typeof import('element-plus/es')['ElCheckbox']
     ElCol: typeof import('element-plus/es')['ElCol']
     ElDatePicker: typeof import('element-plus/es')['ElDatePicker']
     ElDialog: typeof import('element-plus/es')['ElDialog']
@@ -37,6 +38,7 @@ declare module '@vue/runtime-core' {
     ElTabPane: typeof import('element-plus/es')['ElTabPane']
     ElTabs: typeof import('element-plus/es')['ElTabs']
     Footer: typeof import('./src/components/footer/index.vue')['default']
+    Header: typeof import('./src/components/Header/index.vue')['default']
     ListItemVideo: typeof import('./src/components/ListItemVideo.vue')['default']
     Loading: typeof import('./src/components/Loading/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
@@ -44,5 +46,8 @@ declare module '@vue/runtime-core' {
     Swiper: typeof import('./src/components/Swiper/index.vue')['default']
     Tags: typeof import('./src/components/Tags/index.vue')['default']
     TopNav: typeof import('./src/components/TopNav/index.vue')['default']
+  }
+  export interface ComponentCustomProperties {
+    vLoading: typeof import('element-plus/es')['ElLoadingDirective']
   }
 }
