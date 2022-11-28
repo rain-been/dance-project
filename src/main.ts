@@ -6,10 +6,8 @@ import moment from 'moment'
 import ElementPlus from "element-plus";
 import zhCn from "element-plus/es/locale/lang/zh-cn";
 import "element-plus/dist/index.css";
-
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import '@/mock/mackServe';
-
 import Header from '@/components/Header/index.vue'
 import Footer from '@/components/footer/index.vue'
 import TopNav from '@/components/TopNav/index.vue'
@@ -21,7 +19,6 @@ const app = createApp(App);
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component);
 }
-import "@/mock/mockServe";
 app.config.globalProperties.$moment = moment
 // //全局注册组件
 app.component('Header', Header);
