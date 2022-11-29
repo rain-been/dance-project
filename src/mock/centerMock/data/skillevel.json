@@ -1,0 +1,135 @@
+[
+    {
+        "channel": "all",
+        "createTime": 1649317656000,
+        "data": {
+            "defaultValue": 1,
+            "name": "零基础",
+            "id": 70,
+            "desc": "零基础小白"
+        },
+        "groupName": "技能水平",
+        "groupType": "skill_level",
+        "id": "skill_level_70",
+        "sortNum": 0,
+        "status": "valid",
+        "subGroupName": "",
+        "subGroupType": "",
+        "updateTime": null,
+        "version": "1.0"
+    },
+    {
+        "channel": "all",
+        "createTime": 1558493256000,
+        "data": {
+            "defaultValue": 2,
+            "name": "业余初级",
+            "id": 10,
+            "desc": "0-1年学龄"
+        },
+        "groupName": "技能水平",
+        "groupType": "skill_level",
+        "id": "skill_level_10",
+        "sortNum": 1,
+        "status": "valid",
+        "subGroupName": "",
+        "subGroupType": "",
+        "updateTime": null,
+        "version": "1.0"
+    },
+    {
+        "channel": "all",
+        "createTime": 1558493256000,
+        "data": {
+            "defaultValue": 3,
+            "name": "业余中级",
+            "id": 20,
+            "desc": "1-2年学龄"
+        },
+        "groupName": "技能水平",
+        "groupType": "skill_level",
+        "id": "skill_level_20",
+        "sortNum": 2,
+        "status": "valid",
+        "subGroupName": "",
+        "subGroupType": "",
+        "updateTime": null,
+        "version": "1.0"
+    },
+    {
+        "channel": "all",
+        "createTime": 1558493256000,
+        "data": {
+            "defaultValue": 4,
+            "name": "业余高级",
+            "id": 30,
+            "desc": "2-4年学龄"
+        },
+        "groupName": "技能水平",
+        "groupType": "skill_level",
+        "id": "skill_level_30",
+        "sortNum": 3,
+        "status": "valid",
+        "subGroupName": "",
+        "subGroupType": "",
+        "updateTime": null,
+        "version": "1.0"
+    },
+    {
+        "channel": "all",
+        "createTime": 1558493256000,
+        "data": {
+            "defaultValue": 5,
+            "name": "专业初级",
+            "id": 40,
+            "desc": "4-6年学龄"
+        },
+        "groupName": "技能水平",
+        "groupType": "skill_level",
+        "id": "skill_level_40",
+        "sortNum": 4,
+        "status": "valid",
+        "subGroupName": "",
+        "subGroupType": "",
+        "updateTime": null,
+        "version": "1.0"
+    },
+    {
+        "channel": "all",
+        "createTime": 1558493256000,
+        "data": {
+            "defaultValue": 6,
+            "name": "专业中级",
+            "id": 50,
+            "desc": "6-8年学龄"
+        },
+        "groupName": "技能水平",
+        "groupType": "skill_level",
+        "id": "skill_level_50",
+        "sortNum": 5,
+        "status": "valid",
+        "subGroupName": "",
+        "subGroupType": "",
+        "updateTime": null,
+        "version": "1.0"
+    },
+    {
+        "channel": "all",
+        "createTime": 1558493256000,
+        "data": {
+            "defaultValue": 7,
+            "name": "专业高级",
+            "id": 60,
+            "desc": "8年以上学龄"
+        },
+        "groupName": "技能水平",
+        "groupType": "skill_level",
+        "id": "skill_level_60",
+        "sortNum": 6,
+        "status": "valid",
+        "subGroupName": "",
+        "subGroupType": "",
+        "updateTime": null,
+        "version": "1.0"
+    }
+]

@@ -1,0 +1,396 @@
+{
+"data":[
+    {
+    "addressChanged": false,
+    "addressConfirmRemind": false,
+    "aiyigeApplication": null,
+    "auditMsg": [],
+    "auditStatus": null,
+    "auditTime": null,
+    "auditor": null,
+    "auditorName": null,
+    "categoryId": null,
+    "channel": "DanceChannel",
+    "cityId": "402881bb60f8eae00160f8eafd7d0137",
+    "cityName": "南京",
+    "classification": "original",
+    "commodityBackup": {
+      "commissionAmount": null,
+      "commissionRate": null,
+      "commissionType": null,
+      "originPrice": "0.0",
+      "price": "0.0",
+      "showLinePrice": false,
+      "unitPrice": "0.0"
+    },
+    "courseEnded": null,
+    "cover": [
+      "https://rs.dance365.com/photo/1667881304396_rs_1667881306997"
+    ],
+    "createTime": 1667881353788,
+    "creator": "ff808081844238dc01845144bc3f24a5",
+    "creatorBackup": {
+      "accid": "ce68cefbdc332d3dc67a2599bdd31b05",
+      "avatar": "https://rs.dance365.com/default_head@3x.png",
+      "certificationType": null,
+      "id": "ff808081844238dc01845144bc3f24a5",
+      "level": 2,
+      "mobile": null,
+      "name": "测试1",
+      "recentSellerFavorableValue": -1,
+      "recomFactor": null,
+      "recomFactorExpireTime": null,
+      "sellerFavorableValue": -1,
+      "type": null,
+      "vipExpireTime": null,
+      "vipGrade": 0
+    },
+    "depositAmount": 0,
+    "detailBackup": {
+      "content": [],
+      "guarantee": []
+    },
+    "divisionBackup": null,
+    "editHighestVersion": null,
+    "enclosureCount": 0,
+    "enclosures": [],
+    "esSyncStatus": null,
+    "esid": null,
+    "esidBackup": null,
+    "favorableValue": null,
+    "forceUpdate": 0,
+    "freshnessDegree": null,
+    "hasLiveBroadcast": 0,
+    "id": "3be78c019da04985a69154e23a4822d3",
+    "imageTitleBackup": null,
+    "initExposureNum": null,
+    "inventoryBackup": null,
+    "letBuy": null,
+    "likabilityDegree": null,
+    "liveBroadcast": null,
+    "liveBroadcastTitles": [],
+    "mediaSummary": {
+      "count": null,
+      "duration": null
+    },
+    "mineBackup": {
+      "accessoryRequired": 0,
+      "buyed": 1,
+      "commented": 0,
+      "favoriteId": null,
+      "iosDeviceVip": 0,
+      "letInLiveCourse": 0,
+      "liveCourseRequired": 0,
+      "majorCourseRequired": 0,
+      "musicRequired": 0,
+      "mutualFollower": null,
+      "praiseId": null,
+      "resourceFrom": null,
+      "roomRole": null,
+      "userFollowId": null,
+      "videoCourseRequired": 0
+    },
+    "momentClassificationBackup": {
+      "originAuthor": "braner",
+      "originSource": "original",
+      "workTitle": "街舞",
+      "originalStatement": 0,
+      "classification": "original"
+    },
+    "moreBackup": {
+      "detail": {},
+      "richText": "街舞的技巧合集（2）<div></div><div></div><div></div><div>你不知道的那些就=街舞技巧</div>"
+    },
+    "num": null,
+    "onSalesBackup": null,
+    "onsellTime": 1667881358388,
+    "onsellUpdateTime": 1667881358388,
+    "priorityDisplay": null,
+    "priorityDisplayTime": null,
+    "processTime": null,
+    "rand": null,
+    "recDegree": null,
+    "recentFavorableValue": null,
+    "recommendActivityAndTopic": [],
+    "recommendMineBackup": [],
+    "recommendOtherBackup": [
+      {
+        "cover": [
+          "https://images-la.dance365.com/1526218250952ZIEY461024okybrco5y.jpg"
+        ],
+        "summary": "街舞街舞",
+        "router": "wudao://dance365.com/detail/video?momentId=12639403&resourceId=3be78c019da04985a69154e23a4822d3&source=recommend_other",
+        "subject": "video",
+        "statisticsBackup": {
+          "exposureCount": 0,
+          "lockCount": 0,
+          "studentCount": 0,
+          "enquiryCount": 0,
+          "playBackDuration": 0,
+          "praiseCount": 3,
+          "requireVideoCourseCount": 0,
+          "requireMusicCount": 0,
+          "shareAmount": 0,
+          "commentCount": 0,
+          "shareCount": 22,
+          "requireAccessoryCount": 0,
+          "reviewCount": 0,
+          "sellAmount": 0,
+          "signupCount": 0,
+          "sellCount": 0,
+          "requireLiveCourseCount": 0,
+          "viewCount": 2809,
+          "actualSellCount": 0,
+          "liveStatus": 0,
+          "favoriteCount": 14,
+          "requireMajorCourseCount": 1,
+          "userCacheCount": 19
+        },
+        "id": "12639403",
+        "title": "街舞街舞",
+        "momentClassificationBackup": {
+          "originAuthor": "",
+          "adapteFrom": "",
+          "originSource": "original",
+          "adaptationAuthor": "",
+          "workTitle": "街舞街舞",
+          "classification": "freedom"
+        }
+      },
+      {
+        "cover": [
+          "https://rs.dance365.com/photo/1643190792755_1643190784537"
+        ],
+        "inventoryBackup": {
+          "lockedInventory": 0,
+          "total": 100,
+          "virtualInventory": 0,
+          "availableInventory": 100,
+          "orderOccupiedInventory": 0,
+          "selledInventory": 0
+        },
+        "router": "wudao://dance365.com/detail/video_course?momentId=94ce90f7954c42cca8ab38a7caaec6ff&resourceId=3be78c019da04985a69154e23a4822d3&source=recommend_other",
+        "subject": "video_course",
+        "statisticsBackup": {
+          "exposureCount": 0,
+          "enquiryCount": 0,
+          "lockCount": 0,
+          "studentCount": 0,
+          "playBackDuration": 0,
+          "praiseCount": 3,
+          "requireVideoCourseCount": 0,
+          "requireMusicCount": 0,
+          "shareAmount": 0,
+          "commentCount": 0,
+          "shareCount": 1,
+          "requireAccessoryCount": 0,
+          "reviewCount": 0,
+          "sellAmount": 0,
+          "signupCount": 0,
+          "requireLiveCourseCount": 0,
+          "sellCount": 0,
+          "viewCount": 686,
+          "actualSellCount": 0,
+          "liveStatus": 0,
+          "favoriteCount": 9,
+          "requireMajorCourseCount": 0,
+          "userCacheCount": 0
+        },
+        "editHighestVersion": "5.6.6",
+        "id": "94ce90f7954c42cca8ab38a7caaec6ff",
+        "title": "【葫芦娃街舞版】EZ街舞-少儿街舞成品舞分解教学-apple老师",
+        "momentClassificationBackup": {
+          "workTitle": "【葫芦娃街舞版】EZ街舞-少儿街舞成品舞分解教学-apple老师",
+          "classification": "video_course"
+        }
+      },
+      {
+        "cover": [
+          "https://rs.dance365.com/photo/1613981943577_1613981929157"
+        ],
+        "inventoryBackup": {
+          "lockedInventory": 0,
+          "total": 100,
+          "virtualInventory": 0,
+          "availableInventory": 100,
+          "orderOccupiedInventory": 81,
+          "selledInventory": 100
+        },
+        "router": "https://m.dance365.com/detail/live_course?momentId=87f6eb6a5b024e4f921b382ddca83f90&resourceId=3be78c019da04985a69154e23a4822d3&source=recommend_other",
+        "subject": "live_course",
+        "statisticsBackup": {
+          "exposureCount": 0,
+          "enquiryCount": 50,
+          "lockCount": 81,
+          "studentCount": 103,
+          "playBackDuration": 58171,
+          "praiseCount": 53,
+          "requireVideoCourseCount": 0,
+          "requireMusicCount": 0,
+          "shareAmount": "3210.56",
+          "commentCount": 44,
+          "shareCount": 194,
+          "requireAccessoryCount": 0,
+          "reviewCount": 11,
+          "sellAmount": 7900,
+          "signupCount": 103,
+          "requireLiveCourseCount": 0,
+          "sellCount": 100,
+          "viewCount": 54270,
+          "actualSellCount": 100,
+          "liveStatus": 0,
+          "favoriteCount": 274,
+          "requireMajorCourseCount": 0,
+          "userCacheCount": 109
+        },
+        "editHighestVersion": "5.7.1",
+        "id": "87f6eb6a5b024e4f921b382ddca83f90",
+        "title": "30天流行舞零基础训练营【天天跟我跳 · 练舞半小时 】",
+        "momentClassificationBackup": {
+          "workTitle": "30天流行舞零基础训练营【天天跟我跳 · 练舞半小时 】",
+          "classification": "live_course"
+        }
+      },
+      {
+        "cover": [
+          "https://rs.dance365.com/photo/1648624871737_1648624866558"
+        ],
+        "inventoryBackup": {
+          "lockedInventory": 0,
+          "total": 8,
+          "virtualInventory": 0,
+          "availableInventory": 8,
+          "orderOccupiedInventory": 0,
+          "selledInventory": 0
+        },
+        "router": "https://m.dance365.com/detail/major_course?momentId=67fae8be04af4140ae4e825d500709f5&resourceId=3be78c019da04985a69154e23a4822d3&source=recommend_other",
+        "subject": "major_course",
+        "statisticsBackup": {
+          "exposureCount": 0,
+          "enquiryCount": 1,
+          "lockCount": 0,
+          "studentCount": 0,
+          "playBackDuration": 0,
+          "praiseCount": 0,
+          "requireVideoCourseCount": 0,
+          "requireMusicCount": 0,
+          "shareAmount": 0,
+          "commentCount": 0,
+          "shareCount": 0,
+          "requireAccessoryCount": 0,
+          "reviewCount": 0,
+          "sellAmount": 0,
+          "signupCount": 0,
+          "requireLiveCourseCount": 0,
+          "sellCount": 0,
+          "viewCount": 69,
+          "actualSellCount": 0,
+          "liveStatus": 0,
+          "favoriteCount": 0,
+          "requireMajorCourseCount": 0,
+          "userCacheCount": 0
+        },
+        "editHighestVersion": "5.7.1",
+        "id": "67fae8be04af4140ae4e825d500709f5",
+        "title": "《中国民族民间舞蹈等级考试教材》女生版7-9级全国线上师资培训班火热报名中",
+        "momentClassificationBackup": {
+          "workTitle": "《中国民族民间舞蹈等级考试教材》女生版7-9级全国线上师资培训班火热报名中",
+          "classification": "major_course"
+        }
+      }
+    ],
+    "relevancyAvocations": [
+      "街舞",
+      "流行舞",
+      "技术技巧",
+      "爵士舞",
+      "舞蹈",
+      "舞蹈相关",
+      "流行热舞"
+    ],
+    "remark": null,
+    "repeatRequest": null,
+    "requireBackup": [
+      {
+        "requireDesc": "求视频课",
+        "requireType": "video_course"
+      },
+      {
+        "requireDesc": "求配套用品",
+        "requireType": "accessory"
+      },
+      {
+        "requireDesc": "求线下课",
+        "requireType": "major_course"
+      }
+    ],
+    "router": "https://m.dance365.com/detail/article?momentId=3be78c019da04985a69154e23a4822d3",
+    "securityAuditResult": null,
+    "securityStatus": 2,
+    "shelfTime": null,
+    "statisticsBackup": {
+      "actualSellCount": 0,
+      "commentCount": 0,
+      "enquiryCount": 0,
+      "exposureCount": 0,
+      "favoriteCount": 0,
+      "liveStatus": 0,
+      "lockCount": 0,
+      "playBackDuration": 0,
+      "praiseCount": 0,
+      "requireAccessoryCount": 0,
+      "requireLiveCourseCount": 0,
+      "requireMajorCourseCount": 0,
+      "requireMusicCount": 0,
+      "requireVideoCourseCount": 0,
+      "reviewCount": 0,
+      "sellAmount": 0,
+      "sellCount": 0,
+      "shareAmount": 0,
+      "shareCount": 0,
+      "signupCount": 0,
+      "studentCount": 0,
+      "userCacheCount": 0,
+      "viewCount": 17
+    },
+    "status": "5",
+    "studyProgressBackup": [],
+    "subject": "article",
+    "subjectTag": null,
+    "summary": null,
+    "tags": [
+      {
+        "groupType": "channel",
+        "name": "舞蹈",
+        "id": "DanceChannel"
+      },
+      {
+        "groupType": "avocation",
+        "name": "街舞",
+        "id": "402881ed649d628e01649d636ea60056"
+      },
+      {
+        "groupType": "avocation",
+        "name": "流行舞",
+        "id": "ff80808167d058740167d536d4653170"
+      },
+      {
+        "groupType": "avocation",
+        "name": "技术技巧",
+        "id": "ff80808167effef30167f409012a022c"
+      }
+    ],
+    "targetStatus": null,
+    "ticket": null,
+    "title": "街舞",
+    "topicQuoteInfos": [],
+    "updateTime": null,
+    "version": 1,
+    "vipTag": null,
+    "vipTitleBackup": null,
+    "visiblePermissions": "all",
+    "webUrl": "https://m.dance365.com/detail/article?momentId=3be78c019da04985a69154e23a4822d3&share=share",
+    "wordFilterStatus": "pass"
+  }
+]
+}

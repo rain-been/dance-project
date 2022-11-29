@@ -1,0 +1,2616 @@
+{
+  "content": [
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 2,
+              "totalDuration": 201870,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/d849202df57145347b7400cce9912aa6.jpg",
+                      "duration": 141385,
+                      "persistentId": "z0.01z002cn6122v9wpr100mtvyyb0005uj",
+                      "size": 23140262,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "泪目！国科大博士先天残疾只因热爱C位跳街舞",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1664164189738_rs_1ef986ca3b894d1398c373d82db39eb0i92n.m3u8"
+                  },
+                  {
+                      "cover": "https://rs.dance365.com/photo/d394e22d1135fb280eb37cfdafac0eaa.jpg",
+                      "duration": 60485,
+                      "persistentId": "z0.01z002cn6122xigmcc00mtvyyb0005vy",
+                      "size": 10973638,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "纯享-中国科学院大学《水》",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1664164250770_rs_261e1c8dfbb847a899de51e40ee1055e91ht.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 795689,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "国科大博士先天残疾C位跳舞，感谢舞蹈给予的自信和勇气",
+          "cover": [
+              "https://rs.dance365.com/photo/1664164179802_rs_1664164180655"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=9f19a3e2c46c41c9b1c87b4a5a085dde&source=recommend",
+          "mediaSummary": {
+              "duration": 201870,
+              "count": 2
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              }
+          ],
+          "id": "9f19a3e2c46c41c9b1c87b4a5a085dde",
+          "recDegree": 0.16663941701284246,
+          "creator": "227663",
+          "algorithmSortValue": 53.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 11,
+              "name": "这很舞蹈",
+              "avatar": "https://rs.dance365.com/photo/1651498204704_rs_1651498215020",
+              "id": "227663",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1664164434201,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1664164434201,
+          "createTime": 1664164433199,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 1,
+              "requireVideoCourseCount": 0,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 0,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 42,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 0,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 0
+          },
+          "initExposureNum": 50,
+          "momentClassificationBackup": {
+              "workTitle": "国科大博士先天残疾C位跳舞，感谢舞蹈给予的自信和勇气",
+              "classification": "information"
+          },
+          "status": "3",
+          "onsellTime": 1664164434201
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 47467,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/c867353d4dcc3abdd8f88cb174e8f2fd.jpg",
+                      "duration": 47467,
+                      "persistentId": "z0.01z002cn1027gn4vgx00mtvyyb0006ot",
+                      "size": 16456857,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "爽到的打铁_《Pound_the_alarm》__Nanan编舞",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1663653793897_rs_39cefdbb1bf440228a8bcd14fe771978sntc.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 793332,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "Pound the alarm",
+          "cover": [
+              "https://rs.dance365.com/photo/1663653775355_rs_1663653776652"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=902dd93100f749d0ad336e97337db997&source=recommend",
+          "mediaSummary": {
+              "duration": 47467,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              }
+          ],
+          "id": "902dd93100f749d0ad336e97337db997",
+          "recDegree": 0.15358520482311916,
+          "creator": "139466",
+          "algorithmSortValue": 101.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1663653823212,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1663653823212,
+          "createTime": 1663653822211,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 0,
+              "requireVideoCourseCount": 0,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 1,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 50,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 0,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 0
+          },
+          "initExposureNum": 50,
+          "momentClassificationBackup": {
+              "originAuthor": "Nanan",
+              "originSource": "original",
+              "workTitle": "Pound the alarm",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1663653823212
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 58967,
+              "videos": [
+                  {
+                      "itemType": 0,
+                      "index": 0,
+                      "title": "街舞少年",
+                      "url": "",
+                      "canPreview": false,
+                      "originVideoMd5": "40a3ed935f0d6544ddaf353148cdab9e",
+                      "cover": "https://rs.dance365.com/photo/abd25b85d7204e5a8b44b15742febbad_rs_341fb66898834c4983f3dbd96dd1ffd5",
+                      "duration": 58967,
+                      "persistentId": "z0.01z012cn49u2xfg6yi00mtvyyb0005rh",
+                      "size": 89331046,
+                      "originUrl": "",
+                      "buyed": false,
+                      "free": 1,
+                      "selected": false,
+                      "hlsUrl": "https://rs.dance365.com/video/dcd4e88954b64eee88878f6572598556_rs_d1c7a38cba534027a01d688a803a77d9itjr.m3u8",
+                      "audioExtracted": false
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 794910,
+          "channel": "all",
+          "cityId": "402881bb60f8eae00160f8eafdd3014e",
+          "title": "街舞少年",
+          "cover": [
+              "https://rs.dance365.com/photo/355030c888074fdeb64a3314163810e5_rs_b096170a7ad447b0b0c8796eb6fe4d8d"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=897323922f864e269afc0f3984824b5c&source=recommend",
+          "mediaSummary": {
+              "duration": 58967,
+              "count": 1
+          },
+          "cityName": "丽水",
+          "avocationTags": [
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "舞蹈",
+                  "id": "ff80808167cb37250167cc06bbec356a",
+                  "label": "ff80808167cb37250167cc06bbec356a,舞蹈"
+              }
+          ],
+          "id": "897323922f864e269afc0f3984824b5c",
+          "recDegree": 0.15348996995713918,
+          "creator": "ff808081809c73010180a28c666e742e",
+          "algorithmSortValue": 75.0,
+          "aiyigeApplication": "android",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 3,
+              "name": "朱肉丸",
+              "avatar": "https://rs.dance365.com/photo/8482be3d868e4f4685eb37b676e7262e_rs_c254f9ad723a4224ad1da594837b735f",
+              "id": "ff808081809c73010180a28c666e742e",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1663986078224,
+          "version": 3,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "all",
+                  "id": "all"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "舞蹈",
+                  "id": "ff80808167cb37250167cc06bbec356a"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1663986078224,
+          "createTime": 1663986027646,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 1,
+              "requireVideoCourseCount": 0,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 0,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 14,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 1,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 0
+          },
+          "initExposureNum": 50,
+          "momentClassificationBackup": {
+              "originAuthor": "@朱肉丸",
+              "originSource": "original",
+              "workTitle": "街舞少年",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1663986078224
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 35402,
+              "videos": [
+                  {
+                      "itemType": 0,
+                      "index": 0,
+                      "title": "urban",
+                      "url": "",
+                      "canPreview": false,
+                      "originVideoMd5": "e8f0b23cead95bf0ad1a632c31b6011c",
+                      "cover": "https://rs.dance365.com/photo/a111a1c24e394a0e9167d792ae2ea4c2_rs_487399d4be064fc7ba38364b991553a3",
+                      "duration": 35402,
+                      "persistentId": "z0.01z002cncvz2kmlo4i00mtvyyb0006tj",
+                      "size": 10788431,
+                      "originUrl": "",
+                      "buyed": false,
+                      "free": 1,
+                      "selected": false,
+                      "hlsUrl": "https://rs.dance365.com/video/da220c5589374279b2185cd093069ee6_rs_254755570dd74db2a2eea9cb8090a98dvd6d.m3u8",
+                      "audioExtracted": false
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 798410,
+          "channel": "all",
+          "cityId": "402881bb60f8eae00160f8eafc1800ed",
+          "title": "urban",
+          "cover": [
+              "https://rs.dance365.com/photo/a25b1f5d9b164385a28acc5868ed0bfb_rs_cf8ddce164b24703ae0d2f9d7dc6ea79"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=01fb794df60e4cef806fb58b6e804468&source=recommend",
+          "mediaSummary": {
+              "duration": 35402,
+              "count": 1
+          },
+          "cityName": "北京",
+          "avocationTags": [
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              }
+          ],
+          "id": "01fb794df60e4cef806fb58b6e804468",
+          "recDegree": 0.1442684249844202,
+          "creator": "ff8080818137bebc018138ae299a5ada",
+          "algorithmSortValue": 17.0,
+          "aiyigeApplication": "android",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 4,
+              "name": "1573747_yrgW",
+              "avatar": "https://rs.dance365.com/default_head@3x.png",
+              "id": "ff8080818137bebc018138ae299a5ada",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.4",
+          "updateTime": 1664861091885,
+          "version": 3,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "all",
+                  "id": "all"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1664861091885,
+          "createTime": 1664860952939,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 0,
+              "requireVideoCourseCount": 0,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 0,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 16,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 0,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 0
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "Lisa",
+              "originSource": "original",
+              "workTitle": "urban",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1664861091885
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 2,
+              "totalDuration": 295196,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/1e02e37679bb5e08d243f90aeaf75191.jpg",
+                      "duration": 20016,
+                      "persistentId": "z0.01z002cm9rncdxnx4200mtvyyb0004vs",
+                      "size": 5000180,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《Eenie_Meenie》",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660887934995_rs_83b26b59659f43f897de5d00259774d3okeu.m3u8"
+                  },
+                  {
+                      "cover": "https://rs.dance365.com/photo/523a5a089c394e93cb66ba0a9938f189.jpg",
+                      "duration": 275180,
+                      "persistentId": "z0.01z002cm9rncf7z2mq00mtvyyb0004w8",
+                      "size": 30432834,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《Eenie_Meenie》舞蹈分解",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660887934999_rs_c760f936f1c44fe18f5a4d2a3f86f3d87oe3.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 780935,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "Eenie Meenie",
+          "popTrainingIndex": 0.8214,
+          "cover": [
+              "https://rs.dance365.com/photo/1660887911481_rs_1660887913488"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=4733b172624040498575719d312aceba&source=recommend",
+          "mediaSummary": {
+              "duration": 295196,
+              "count": 2
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              }
+          ],
+          "id": "4733b172624040498575719d312aceba",
+          "recDegree": 0.13984252726514002,
+          "creator": "230449",
+          "algorithmSortValue": 7541.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 19,
+              "name": "舞言",
+              "avatar": "https://photo.dance365.com/man_1@3x.png",
+              "id": "230449",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1660887970818,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1660887970818,
+          "createTime": 1660887969744,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 23,
+              "requireVideoCourseCount": 1,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 6,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 2960,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 81,
+              "requireMajorCourseCount": 3,
+              "userCacheCount": 43
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "天空街舞jojo",
+              "workTitle": "Eenie Meenie",
+              "originalStatement": 0,
+              "classification": "course"
+          },
+          "difficultDegreeValue": 1.6593,
+          "status": "3",
+          "onsellTime": 1660887970818
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 2,
+              "totalDuration": 201178,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/662408c92ac4d70797e53831a12a0d8b.jpg",
+                      "duration": 15743,
+                      "persistentId": "z0.01z002cm6i4l24lvbx00mtvyyb00048y",
+                      "size": 3976410,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《遮阳舞》",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660556396827_rs_721b038d9aeb4680b52907fd7b220465favm.m3u8"
+                  },
+                  {
+                      "cover": "https://rs.dance365.com/photo/d6d1f0cbf15ad5459574d54cb638688c.jpg",
+                      "duration": 185435,
+                      "persistentId": "z0.01z002cm6i4l44hjqa00mtvyyb00049u",
+                      "size": 19950182,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《遮阳舞》舞蹈分解",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660556396831_rs_365666f39dd94039b12f2e27987c15efpulc.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 779527,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "遮阳舞",
+          "popTrainingIndex": 1.83184,
+          "cover": [
+              "https://rs.dance365.com/photo/1660556352864_rs_1660556354692"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=c77bdba6bf264bae94df2102e5348881&source=recommend",
+          "mediaSummary": {
+              "duration": 201178,
+              "count": 2
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              }
+          ],
+          "id": "c77bdba6bf264bae94df2102e5348881",
+          "recDegree": 0.13732741364280654,
+          "creator": "230449",
+          "algorithmSortValue": 12672.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 19,
+              "name": "舞言",
+              "avatar": "https://photo.dance365.com/man_1@3x.png",
+              "id": "230449",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1660556431068,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1660556431068,
+          "createTime": 1660556429618,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 47,
+              "requireVideoCourseCount": 0,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 24,
+              "requireAccessoryCount": 2,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 3851,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 143,
+              "requireMajorCourseCount": 2,
+              "userCacheCount": 69
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "天空街舞jojo",
+              "workTitle": "遮阳舞",
+              "originalStatement": 0,
+              "classification": "course"
+          },
+          "difficultDegreeValue": 1.331,
+          "status": "3",
+          "onsellTime": 1660556431068
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 2,
+              "totalDuration": 363346,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/c55eb27d981565787e1ce1a78c5cb4ae.jpg",
+                      "duration": 21548,
+                      "persistentId": "z0.01z012cmkvk2xfnsam00mtvyyb0006s2",
+                      "size": 3949197,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《有何不可》",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1662015176978_rs_5bf70e8afeca4fd6acda5d2e9f2ce90044un.m3u8"
+                  },
+                  {
+                      "cover": "https://rs.dance365.com/photo/5f9abe0dafb950c0dee0fd401445b835.jpg",
+                      "duration": 341798,
+                      "persistentId": "z0.01z012cmkvk2yshuv000mtvyyb00058u",
+                      "size": 33155126,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《有何不可》舞蹈分解",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1662015176981_rs_af34f187eed9495bb9a99784d8d79bb0eku0.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 786336,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "有何不可",
+          "popTrainingIndex": 0.7436,
+          "cover": [
+              "https://rs.dance365.com/photo/1662015160174_rs_1662015161752"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=98fdb8f35cc34f5493222450eca9de2f&source=recommend",
+          "mediaSummary": {
+              "duration": 363346,
+              "count": 2
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              }
+          ],
+          "id": "98fdb8f35cc34f5493222450eca9de2f",
+          "recDegree": 0.13230698016290363,
+          "creator": "230449",
+          "algorithmSortValue": 1170.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 19,
+              "name": "舞言",
+              "avatar": "https://photo.dance365.com/man_1@3x.png",
+              "id": "230449",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1662016159103,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1662016159103,
+          "createTime": 1662016158249,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 3,
+              "requireVideoCourseCount": 1,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 2,
+              "requireAccessoryCount": 1,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 489,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 11,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 11
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "天空街舞jojo",
+              "workTitle": "有何不可",
+              "originalStatement": 0,
+              "classification": "course"
+          },
+          "status": "3",
+          "onsellTime": 1662016159103
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 293441,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/18efa39b960a67f4946f29c4e0a72461.jpg",
+                      "duration": 293441,
+                      "persistentId": "z0.01z002cmv1la15l2nr00mtvyyb0006m5",
+                      "size": 103316555,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "【1M】Debby_X_Dohee_X_Woonha_X_Yeji_Kim_编舞《Pink_Venom》",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1663048552958_rs_79088de7053c492998067e57e80f440e7tr3.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 790591,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "Pink Venom",
+          "cover": [
+              "https://rs.dance365.com/photo/1663048530044_rs_1663048531437"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=60db02ee7233428a885d0b4c0d95b2e0&source=recommend",
+          "mediaSummary": {
+              "duration": 293441,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "urbandance",
+                  "id": "ff80808167c6d7c00167c98eb0121491",
+                  "label": "ff80808167c6d7c00167c98eb0121491,urbandance"
+              }
+          ],
+          "id": "60db02ee7233428a885d0b4c0d95b2e0",
+          "recDegree": 0.12388663973781754,
+          "creator": "139466",
+          "algorithmSortValue": 215.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1663048779085,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "urbandance",
+                  "id": "ff80808167c6d7c00167c98eb0121491"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1663048779085,
+          "createTime": 1663048775356,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 1,
+              "requireVideoCourseCount": 0,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 1,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 104,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 1,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 1
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "Debby ，Dohee，Woonha，Yeji Kim ",
+              "originSource": "original",
+              "workTitle": "Pink Venom",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1663048779085
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 40150,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/a4ffe40925e44ade83f2c831c1029030_rs_5a71424e2e164e0fa8edb77c9ef23b4b.jpg",
+                      "duration": 40150,
+                      "persistentId": "z0.01z012cm9vy37zropb00mtvyyb0003d8",
+                      "size": 125232627,
+                      "originUrl": "",
+                      "sortNum": 0,
+                      "free": 1,
+                      "title": "街舞基本元素",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/d4c8d4c3344c45fb95aee1bb9a19ab95_rs_f8477fdefbb24356844fe1697d6f3122ojdt.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 781065,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafff701b4",
+          "title": "街舞基本元素",
+          "popTrainingIndex": 0.00853,
+          "cover": [
+              "https://rs.dance365.com/photo/1fce56aae5ad46fa9efdc445aabd973c_rs_74dbae6f8aca4e7aa64157b2f0524fd3.jpg"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=ebb0e19ea54842a1bfd308f3f2bb8056&source=recommend",
+          "mediaSummary": {
+              "duration": 40150,
+              "count": 1
+          },
+          "cityName": "深圳",
+          "avocationTags": [
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "少儿舞蹈",
+                  "id": "402881ed649d628e01649d636ea80067",
+                  "label": "402881ed649d628e01649d636ea80067,少儿舞蹈"
+              },
+              {
+                  "name": "hiphop",
+                  "id": "ff80808167c027b90167c15425b95e52",
+                  "label": "ff80808167c027b90167c15425b95e52,hiphop"
+              }
+          ],
+          "id": "ebb0e19ea54842a1bfd308f3f2bb8056",
+          "recDegree": 0.12332414598023078,
+          "creator": "746714",
+          "algorithmSortValue": 7912.0,
+          "aiyigeApplication": "ios",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 7,
+              "name": "2319702654",
+              "avatar": "https://photo.dance365.com/man_1@3x.png",
+              "id": "746714",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.2",
+          "updateTime": 1660900097601,
+          "version": 3,
+          "tags": [
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "少儿舞蹈",
+                  "id": "402881ed649d628e01649d636ea80067"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "hiphop",
+                  "id": "ff80808167c027b90167c15425b95e52"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1660900097601,
+          "createTime": 1660891810560,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 28,
+              "requireVideoCourseCount": 7,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 5,
+              "requireAccessoryCount": 5,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 2581,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 96,
+              "requireMajorCourseCount": 3,
+              "userCacheCount": 31
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "workTitle": "街舞基本元素",
+              "originalStatement": 0,
+              "classification": "course"
+          },
+          "status": "3",
+          "onsellTime": 1660900097601
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 2,
+              "totalDuration": 286720,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/1c3f6b8c4232b3427a65670f22854918.jpg",
+                      "duration": 18878,
+                      "persistentId": "z0.01z002cm6hrdk6k74n00mtvyyb0004gz",
+                      "size": 4592065,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《热恋冰淇凌》",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660555176949_rs_164c598f3f964cefadfb5c083655167139ot.m3u8"
+                  },
+                  {
+                      "cover": "https://rs.dance365.com/photo/c8159a53731ccbc2c3c2182cbdc9d6a9.jpg",
+                      "duration": 267842,
+                      "persistentId": "z0.01z002cm6hrdm74gac00mtvyyb0004hx",
+                      "size": 52945265,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《热恋冰淇淋》舞蹈分解",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660555176953_rs_67587812abbc41bfbce03c2457125143lg69.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 779523,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "热恋冰淇淋",
+          "popTrainingIndex": 8.40494,
+          "cover": [
+              "https://rs.dance365.com/photo/1660555147212_rs_1660555148692"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=de3c48e3b2a040e7b6dd534563b870ef&source=recommend",
+          "mediaSummary": {
+              "duration": 286720,
+              "count": 2
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              }
+          ],
+          "id": "de3c48e3b2a040e7b6dd534563b870ef",
+          "recDegree": 0.11785318997518317,
+          "creator": "230449",
+          "algorithmSortValue": 10875.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 19,
+              "name": "舞言",
+              "avatar": "https://photo.dance365.com/man_1@3x.png",
+              "id": "230449",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1660555395920,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1660555395920,
+          "createTime": 1660555393952,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 41,
+              "requireVideoCourseCount": 2,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 14,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 4116,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 113,
+              "requireMajorCourseCount": 2,
+              "userCacheCount": 119
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "天空街舞jojo",
+              "workTitle": "热恋冰淇淋",
+              "originalStatement": 0,
+              "classification": "course"
+          },
+          "difficultDegreeValue": 1.4609,
+          "status": "3",
+          "onsellTime": 1660555395920
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 293062,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/0166f1d858f3699d26e9ed75a4158ff2.jpg",
+                      "duration": 293062,
+                      "persistentId": "z0.01z002cm20yq8a0kfp00mtvyyb0004qi",
+                      "size": 101006685,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "抓住夏天的尾巴！一起跳一支清凉快乐的「小城夏天」【嘉禾舞社中关村店_龙龙_编舞_小城夏天】",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660101561126_rs_9754d1c0492c426e86433a8bef87fed3dl3f.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 777163,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "小城夏天",
+          "popTrainingIndex": 0.1024,
+          "cover": [
+              "https://rs.dance365.com/photo/1660101532673_rs_1660101537425"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=5c5ea4c34ffd4554a2533c6fb52b1cf4&source=recommend",
+          "mediaSummary": {
+              "duration": 293062,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              }
+          ],
+          "id": "5c5ea4c34ffd4554a2533c6fb52b1cf4",
+          "recDegree": 0.11678509497272734,
+          "creator": "139466",
+          "algorithmSortValue": 22979.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1660101773195,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1660101773195,
+          "createTime": 1660101772643,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 102,
+              "requireVideoCourseCount": 141,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 45,
+              "requireAccessoryCount": 21,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 7809,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 238,
+              "requireMajorCourseCount": 34,
+              "userCacheCount": 147
+          },
+          "initExposureNum": 87,
+          "momentClassificationBackup": {
+              "originAuthor": "龙龙",
+              "originSource": "original",
+              "workTitle": "小城夏天",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "difficultDegreeValue": 1.6828,
+          "status": "3",
+          "onsellTime": 1660101773195
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 67036,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/fb2c81ad2f70cda4106d68146d3626dd.jpg",
+                      "duration": 67036,
+                      "persistentId": "z0.01z002cmqndpxnvkxg00mtvyyb00053e",
+                      "size": 19053905,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "浅帅一下《all_hands_on_deck》竖屏#小橘编舞#",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1662602226290_rs_86f80a4f150648aca18399e6cf18c7d27t1p.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 788739,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "《all hands on deck》竖屏",
+          "popTrainingIndex": 0.0,
+          "cover": [
+              "https://rs.dance365.com/photo/1662602208202_rs_1662602209228"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=df3eae2df406494ea9b4e2d9a34955f7&source=recommend",
+          "mediaSummary": {
+              "duration": 67036,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              }
+          ],
+          "id": "df3eae2df406494ea9b4e2d9a34955f7",
+          "recDegree": 0.11373733546547621,
+          "creator": "139466",
+          "algorithmSortValue": 404.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1662602451373,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1662602451373,
+          "createTime": 1662602451058,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 3,
+              "requireVideoCourseCount": 3,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 0,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 223,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 3,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 1
+          },
+          "initExposureNum": 88,
+          "momentClassificationBackup": {
+              "originAuthor": "小橘",
+              "originSource": "original",
+              "workTitle": "《all hands on deck》竖屏",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1662602451373
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 49089,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/8de59a9206ac0fc3f6175813136ba6cd.jpg",
+                      "duration": 49089,
+                      "persistentId": "z0.01z002cmlk0me1zuwo00mtvyyb00061h",
+                      "size": 16084678,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "【CUBE舞室】贯彻爱与美的致命魅力令信徒臣服#咩咩编舞《Pink_Venom》",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1662085146272_rs_65f16b0a12974d7491373286e4184cd6kkrc.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 786602,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "Pink Venom",
+          "popTrainingIndex": 0.0,
+          "cover": [
+              "https://rs.dance365.com/photo/1662085027610_rs_1662085029267"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=5b12d2d7620644f89c8a6148c3871cae&source=recommend",
+          "mediaSummary": {
+              "duration": 49089,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              }
+          ],
+          "id": "5b12d2d7620644f89c8a6148c3871cae",
+          "recDegree": 0.10881747783917851,
+          "creator": "139466",
+          "algorithmSortValue": 888.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1662085161844,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1662085161844,
+          "createTime": 1662085160277,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 7,
+              "requireVideoCourseCount": 0,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 1,
+              "shareCount": 1,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 367,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 7,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 5
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "咩咩",
+              "originSource": "original",
+              "workTitle": "Pink Venom",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1662085161844
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 2,
+              "totalDuration": 169413,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/6dcf9ff3e71e6448df573a8ed2e35f40.jpg",
+                      "duration": 13073,
+                      "persistentId": "z0.01z002cm3wq26akbjj00mtvyyb0003bt",
+                      "size": 2909579,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《sistar》",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660292834461_rs_00186157ae6f4f44adb15d75afebf5cevdha.m3u8"
+                  },
+                  {
+                      "cover": "https://rs.dance365.com/photo/bb177bff8a7d1e7293ed918c307a73ac.jpg",
+                      "duration": 156340,
+                      "persistentId": "z0.01z002cm3wq27nn5yl00mtvyyb0004ca",
+                      "size": 17060903,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《sistar》_舞蹈分解",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660292834464_rs_a1d6e45e4763455da12b1e12679b3682doal.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 778324,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "sistar",
+          "popTrainingIndex": 2.45788,
+          "cover": [
+              "https://rs.dance365.com/photo/1660292814964_rs_1660292816480"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=379a798bfba74796b5d29e524f495e46&source=recommend",
+          "mediaSummary": {
+              "duration": 169413,
+              "count": 2
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              }
+          ],
+          "id": "379a798bfba74796b5d29e524f495e46",
+          "recDegree": 0.10193765699276558,
+          "creator": "230449",
+          "algorithmSortValue": 14340.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 19,
+              "name": "舞言",
+              "avatar": "https://photo.dance365.com/man_1@3x.png",
+              "id": "230449",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1660292929507,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1660292929507,
+          "createTime": 1660292927673,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 56,
+              "requireVideoCourseCount": 10,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 12,
+              "requireAccessoryCount": 1,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 4579,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 172,
+              "requireMajorCourseCount": 4,
+              "userCacheCount": 130
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "天空街舞jojo",
+              "workTitle": "sistar",
+              "originalStatement": 0,
+              "classification": "course"
+          },
+          "difficultDegreeValue": 1.1509,
+          "status": "3",
+          "onsellTime": 1660292929507
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 40194,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/45155d6dcfef2b2318d266bbaf733ed5.jpg",
+                      "duration": 40194,
+                      "persistentId": "z0.01z012cmfmpl2dawj400mtvyyb00056e",
+                      "size": 9338400,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "《讲真的》今夜特别漫长……#liya编舞",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1661483366103_rs_7697d75f73fc418b830d6b223b4e83e77n2q.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 783824,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "讲真的",
+          "popTrainingIndex": 0.0,
+          "cover": [
+              "https://rs.dance365.com/photo/1661483319234_rs_1661483320412"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=f1883fa8402b44a38723693cc08fde97&source=recommend",
+          "mediaSummary": {
+              "duration": 40194,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              }
+          ],
+          "id": "f1883fa8402b44a38723693cc08fde97",
+          "recDegree": 0.09924558902549525,
+          "creator": "139466",
+          "algorithmSortValue": 2125.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1661483400539,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1661483400539,
+          "createTime": 1661483399631,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 6,
+              "requireVideoCourseCount": 3,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 0,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 964,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 22,
+              "requireMajorCourseCount": 3,
+              "userCacheCount": 17
+          },
+          "initExposureNum": 80,
+          "momentClassificationBackup": {
+              "originAuthor": "liya",
+              "originSource": "original",
+              "workTitle": "讲真的",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1661483400539
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 210560,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/0919568679a8b3279aeb5bd6f1b30e88.jpg",
+                      "duration": 210560,
+                      "persistentId": "z0.01z012cm9ndwy1d53200mtvyyb0003rq",
+                      "size": 77377081,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "当原则遇上心动就会不停破例《如果的事》#小橘编舞#",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660875776883_rs_c6386b163d0442d8ad47037b5d34b35c8kjn.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 780844,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "如果的事",
+          "popTrainingIndex": 1.48269,
+          "cover": [
+              "https://rs.dance365.com/photo/1660875752372_rs_1660875753494"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=9b954bf6379540c5a18060b67a02f66a&source=recommend",
+          "mediaSummary": {
+              "duration": 210560,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              }
+          ],
+          "id": "9b954bf6379540c5a18060b67a02f66a",
+          "recDegree": 0.09717996654947804,
+          "creator": "139466",
+          "algorithmSortValue": 5523.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1660875947407,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1660875947407,
+          "createTime": 1660875946589,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 27,
+              "requireVideoCourseCount": 10,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 2,
+              "shareCount": 11,
+              "requireAccessoryCount": 2,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 1902,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 54,
+              "requireMajorCourseCount": 5,
+              "userCacheCount": 36
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "小橘",
+              "originSource": "original",
+              "workTitle": "如果的事",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1660875947407
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 161430,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/8c9e65250beb26f108fe69ce58dced89.jpg",
+                      "duration": 161430,
+                      "persistentId": "z0.01z002cmxhgc7wozna00mtvyyb0005ac",
+                      "size": 56895914,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "【1M】May_J_Lee_编舞《Baby_Boo》",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1663296561444_rs_dba02ef8a76f42f581db40961188e1bf9noc.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 791878,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "Baby Boo",
+          "cover": [
+              "https://rs.dance365.com/photo/1663296542752_rs_1663296545101"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=56562a26ccd64283b57a0447b153bf0e&source=recommend",
+          "mediaSummary": {
+              "duration": 161430,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              },
+              {
+                  "name": "urbandance",
+                  "id": "ff80808167c6d7c00167c98eb0121491",
+                  "label": "ff80808167c6d7c00167c98eb0121491,urbandance"
+              }
+          ],
+          "id": "56562a26ccd64283b57a0447b153bf0e",
+          "recDegree": 0.09613826577830685,
+          "creator": "139466",
+          "algorithmSortValue": 112.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1663296649648,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "urbandance",
+                  "id": "ff80808167c6d7c00167c98eb0121491"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1663296649648,
+          "createTime": 1663296649581,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 0,
+              "requireVideoCourseCount": 0,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 0,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 111,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 0,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 1
+          },
+          "initExposureNum": 100,
+          "momentClassificationBackup": {
+              "originAuthor": "May J Lee ",
+              "originSource": "original",
+              "workTitle": "Baby Boo",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1663296649648
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 601467,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/da9922ac1f7630d7b8395b7195289ba9.jpg",
+                      "duration": 601467,
+                      "persistentId": "z0.01z002cn14w4t1byep00mtvyyb0006q8",
+                      "size": 103125032,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "【洋先生舞蹈教学】《Sweaty》by_街头男战士；分解教学",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1663667340390_rs_da36a84c19254ea98c4c959789666a96iekl.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 793525,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "Sweaty",
+          "cover": [
+              "https://rs.dance365.com/photo/1663667322711_rs_1663667324181"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=3f310337c8494d9e9dd3be9a0a5ded2d&source=recommend",
+          "mediaSummary": {
+              "duration": 601467,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "韩舞",
+                  "id": "ff80808167bec85c0167bee5673804a8",
+                  "label": "ff80808167bec85c0167bee5673804a8,韩舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              }
+          ],
+          "id": "3f310337c8494d9e9dd3be9a0a5ded2d",
+          "recDegree": 0.09455590166359523,
+          "creator": "230449",
+          "algorithmSortValue": 59.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 19,
+              "name": "舞言",
+              "avatar": "https://photo.dance365.com/man_1@3x.png",
+              "id": "230449",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1663667452775,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "韩舞",
+                  "id": "ff80808167bec85c0167bee5673804a8"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1663667452775,
+          "createTime": 1663667451682,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 1,
+              "requireVideoCourseCount": 0,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 0,
+              "requireAccessoryCount": 0,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 48,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 0,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 0
+          },
+          "initExposureNum": 92,
+          "momentClassificationBackup": {
+              "originAuthor": "洋先生",
+              "workTitle": "Sweaty",
+              "originalStatement": 0,
+              "classification": "course"
+          },
+          "status": "3",
+          "onsellTime": 1663667452775
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 33135,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/09c602cd7c03db7bea365894d7004e00.jpg",
+                      "duration": 33135,
+                      "persistentId": "z0.01z002cm160tgbsuut00mtvyyb0004q7",
+                      "size": 6001543,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "2****17【You=I】今天是运动风小莹_随便跳跳",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1660014396931_rs_b55561f276474743bc23eb3c028881cebvi7.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 776699,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "You=I 运动风小莹 随便跳跳 原创编舞：咔啵腥",
+          "popTrainingIndex": 0.19253,
+          "cover": [
+              "https://rs.dance365.com/photo/1660014165268_rs_1660014166402"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=dba432be89a646c29980e9db41edaa0b&source=recommend",
+          "mediaSummary": {
+              "duration": 33135,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              }
+          ],
+          "id": "dba432be89a646c29980e9db41edaa0b",
+          "recDegree": 0.0942211351328672,
+          "creator": "139466",
+          "algorithmSortValue": 21296.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1660014482537,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1660014482537,
+          "createTime": 1660014482117,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 104,
+              "requireVideoCourseCount": 95,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 7,
+              "shareCount": 19,
+              "requireAccessoryCount": 12,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 6855,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 242,
+              "requireMajorCourseCount": 26,
+              "userCacheCount": 123
+          },
+          "initExposureNum": 66,
+          "momentClassificationBackup": {
+              "workTitle": "You=I 运动风小莹 随便跳跳 原创编舞：咔啵腥",
+              "classification": "information"
+          },
+          "difficultDegreeValue": 1.2705,
+          "status": "3",
+          "onsellTime": 1660014482537
+      },
+      {
+          "enclosureCount": 0,
+          "moreBackup": {
+              "videoCount": 1,
+              "totalDuration": 69248,
+              "videos": [
+                  {
+                      "cover": "https://rs.dance365.com/photo/242b1dcefccb945e6c9558446d3e788c.jpg",
+                      "duration": 69248,
+                      "persistentId": "z0.01z001cmi5bvpdz16a00mtvyyb0006ak",
+                      "size": 25358891,
+                      "originUrl": "",
+                      "free": "1",
+                      "title": "【蔡徐坤】蔡徐坤《Hug_Me》爵士入门编舞_申旭阔编舞",
+                      "url": "",
+                      "hlsUrl": "https://rs.dance365.com/video/1661738718498_rs_eebb6dc99ba84b8dbb534b49f74f5ca7f5ng.m3u8"
+                  }
+              ]
+          },
+          "notVipPromotion": 0,
+          "subject": "video",
+          "num": 785105,
+          "channel": "DanceChannel",
+          "cityId": "402881bb60f8eae00160f8eafd7d0137",
+          "title": "Hug Me",
+          "popTrainingIndex": 0.52,
+          "cover": [
+              "https://rs.dance365.com/photo/1661738702450_rs_1661738703754"
+          ],
+          "router": "wudao://dance365.com/detail/video?momentId=af5527817b6c4e77956ddf9969d98ce2&source=recommend",
+          "mediaSummary": {
+              "duration": 69248,
+              "count": 1
+          },
+          "cityName": "南京",
+          "avocationTags": [
+              {
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057",
+                  "label": "402881ed649d628e01649d636ea70057,爵士舞"
+              },
+              {
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065",
+                  "label": "402881ed649d628e01649d636ea80065,流行热舞"
+              },
+              {
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056",
+                  "label": "402881ed649d628e01649d636ea60056,街舞"
+              }
+          ],
+          "id": "af5527817b6c4e77956ddf9969d98ce2",
+          "recDegree": 0.09121509081884739,
+          "creator": "139466",
+          "algorithmSortValue": 1296.0,
+          "aiyigeApplication": "pc",
+          "vipPromotion": 0,
+          "creatorBackup": {
+              "level": 17,
+              "name": "古舞者",
+              "avatar": "https://rs.dance365.com/photo/1607930435538_rs_1651504284098",
+              "id": "139466",
+              "vipGrade": 0
+          },
+          "editHighestVersion": "5.7.1",
+          "updateTime": 1661739047600,
+          "version": 2,
+          "tags": [
+              {
+                  "groupType": "channel",
+                  "name": "舞蹈",
+                  "id": "DanceChannel"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "爵士舞",
+                  "id": "402881ed649d628e01649d636ea70057"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "流行热舞",
+                  "id": "402881ed649d628e01649d636ea80065"
+              },
+              {
+                  "groupType": "avocation",
+                  "name": "街舞",
+                  "id": "402881ed649d628e01649d636ea60056"
+              }
+          ],
+          "needPromotion": 0,
+          "onsellUpdateTime": 1661739047600,
+          "createTime": 1661739043446,
+          "statisticsBackup": {
+              "exposureCount": 0,
+              "enquiryCount": 0,
+              "lockCount": 0,
+              "studentCount": 0,
+              "playBackDuration": 0,
+              "praiseCount": 8,
+              "requireVideoCourseCount": 3,
+              "requireMusicCount": 0,
+              "shareAmount": 0,
+              "commentCount": 0,
+              "shareCount": 2,
+              "requireAccessoryCount": 1,
+              "reviewCount": 0,
+              "sellAmount": 0,
+              "signupCount": 0,
+              "requireLiveCourseCount": 0,
+              "sellCount": 0,
+              "viewCount": 415,
+              "actualSellCount": 0,
+              "liveStatus": 0,
+              "favoriteCount": 14,
+              "requireMajorCourseCount": 0,
+              "userCacheCount": 7
+          },
+          "initExposureNum": 66,
+          "momentClassificationBackup": {
+              "originAuthor": "申旭阔",
+              "originSource": "original",
+              "workTitle": "Hug Me",
+              "originalStatement": 0,
+              "classification": "original"
+          },
+          "status": "3",
+          "onsellTime": 1661739047600
+      }
+  ],
+  "first": true,
+  "last": false,
+  "number": 0,
+  "numberOfElements": 20,
+  "offset": null,
+  "size": 20,
+  "sort": null,
+  "statistics": null,
+  "totalElements": 10000000,
+  "totalPages": 1,
+  "useOffset": false
+}

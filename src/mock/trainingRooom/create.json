@@ -1,0 +1,33 @@
+{
+    "content": [
+        {
+            "canAccess": true,
+            "contentCount": 5,
+            "cover": "https://rs.dance365.com/photo/ff808081844238cc01844da89b015e38_rs_b642fd7e6b67439a85912f6836243948.jpg",
+            "createMethod": "user",
+            "creator": "ff808081844238cc01844c5f4c193637",
+            "deleteFlag": false,
+            "id": "ff808081844238cc01844da89b015e38",
+            "isDelete": 0,
+            "openOutside": -1,
+            "planAddCount": 1,
+            "planName": "111",
+            "status": "init",
+            "weekTrainedCount": 0,
+            "weekTrainedDuration": 0,
+            "weeklyPlanCount": 0,
+            "weeklyPlanDuration": 0
+        }
+    ],
+    "first": true,
+    "last": true,
+    "number": 0,
+    "numberOfElements": 1,
+    "offset": null,
+    "size": 20,
+    "sort": null,
+    "statistics": null,
+    "totalElements": 1,
+    "totalPages": 1,
+    "useOffset": false
+}
