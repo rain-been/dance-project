@@ -7,8 +7,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Animation: typeof import('./src/components/animation/index.vue')['default']
-    CardItem: typeof import('./src/components/CardItem/index.vue')['default']
     ElBacktop: typeof import('element-plus/es')['ElBacktop']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
@@ -31,15 +29,8 @@ declare module '@vue/runtime-core' {
     ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
     ElTable: typeof import('element-plus/es')['ElTable']
     ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
-    Footer: typeof import('./src/components/footer/index.vue')['default']
-    Header: typeof import('./src/components/Header/index.vue')['default']
-    ListItemVideo: typeof import('./src/components/ListItemVideo.vue')['default']
-    Loading: typeof import('./src/components/Loading/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Swiper: typeof import('./src/components/Swiper/index.vue')['default']
-    Tags: typeof import('./src/components/Tags/index.vue')['default']
-    TopNav: typeof import('./src/components/TopNav/index.vue')['default']
   }
   export interface ComponentCustomProperties {
     vLoading: typeof import('element-plus/es')['ElLoadingDirective']

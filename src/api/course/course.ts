@@ -1,6 +1,11 @@
 import request from '../../utils/requestMock';
 
-
+enum API {
+    login = "/user/passport/login",
+    info = "/user/passport/register",
+    code = 'user/passport/sendCode',
+    logout = "user/passport/logout",
+  }
 // 会员专区选择标签列表接口
 export const reqChooseTag = ()=>request.get('/videoDeail/lable')
 // 视频课选择标签列表接口
