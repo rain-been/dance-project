@@ -64,7 +64,7 @@
                         <div class="card-top">
                             <img :src="videoModule.cover" class="cover"/>
                             <!-- 播放按钮 -->
-                            <router-link to="/detail/video"><img class="play" src="../../../../public/static/play.png"
+                            <router-link to="/detail/video"><img class="play" src="/static/play.png"
                                     alt="" /></router-link>
                             <span>视频课</span>
                             <router-view></router-view> 
@@ -77,7 +77,7 @@
                                     <span class="zan">{{videoModule.statisticsBackup.enquiryCount}}k人浏览</span>
                                 </div>
                                 <div class="vip-video">
-                                    <img src="../../../static/vip_free.png" alt="">
+                                    <img src="/static/vip_free.png" alt="">
                                 </div>
                                 <div class="myZan">
                                     <svg t="1666139214246" class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -116,7 +116,7 @@
                                 <div class="bottom-text">
                                     <img class="userAva" :src="videoModule.creatorBackup.avatar"/>
                                     <span>{{videoModule.creatorBackup.name}}</span>
-                                    <img class="lv" src="../../../static/lv.png" alt="">
+                                    <img class="lv" src="/static/lv.png" alt="">
                                 </div>
                                 <div class="date">2022/10/20</div>
                             </div>

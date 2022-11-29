@@ -9,7 +9,7 @@
                     <div class="userInfo">
                         <div class="via">
 
-                            <img src="../../../../public/static/person.png" alt="" />
+                            <img src="/static/person.png" alt="" />
                         </div>
                         <div class="viaInfo">
                             <router-link to="/center/mymember" class="userName"><span>124511</span></router-link>
@@ -21,7 +21,7 @@
                     <div class="intro">
                         <div class="video">
                             <div class="videoImg">
-                                <img src="../../../../public/static/video.png" alt="">
+                                <img src="/static/video.png" alt="">
                             </div>
                             <div class="videoInfo">
 
@@ -35,7 +35,7 @@
                         </div>
                         <div class="discounts">
                             <div class="discountsImg">
-                                <img src="../../../../public/static/membe.png" alt="">
+                                <img src="/static/membe.png" alt="">
                             </div>
                             <div class="discountInfo">
                                 <router-link to="/center/mymember" class="buy-vip">
@@ -129,7 +129,7 @@
                         <div class="card-top">
                             <img :src="videoModule.cover" class="cover" />
                             <!-- 播放按钮 -->
-                            <router-link to="/detail/video"><img class="play" src="../../../../public/static/play.png"
+                            <router-link to="/detail/video"><img class="play" src="/static/play.png"
                                     alt="" /></router-link>
                             <span>视频课</span>
                             <router-view></router-view>
@@ -143,7 +143,7 @@
                                 </div>
 
                                 <div class="vip-video">
-                                    <img src="../../../../public/static/vip_free.png" alt="">
+                                    <img src="/static/vip_free.png" alt="">
                                 </div>
                                 <div class="myZan">
                                     <svg t="1666139214246" class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -183,7 +183,7 @@
                                 <div class="bottom-text">
                                     <img class="userAva" :src="videoModule.creatorBackup.avatar" />
                                     <span>{{videoModule.creatorBackup.name}}</span>
-                                    <img class="lv" src="../../../../public/static/lv.png" alt="">
+                                    <img class="lv" src="/static/lv.png" alt="">
                                 </div>
                                 <div class="date">2022/10/20</div>
                             </div>
@@ -739,11 +739,11 @@ onMounted(() => {
     cursor: pointer;
 }
 /* 控制视频 */
-::v-deep .is-active {
+:v-deep .is-active {
     background-color: white !important;
     border-bottom: none !important;
 }
-::v-deep.el-menu-item:hover {
+:v-deep.el-menu-item:hover {
     background-color: white !important;
     color: #f93684 !important;
 }
@@ -798,7 +798,7 @@ onMounted(() => {
     margin: -10px 0;
     overflow: hidden;
 }
-::v-deep .el-check-tag {
+:v-deep .el-check-tag {
     background: #f93684;
     color: white;
     margin-left: 10px;
