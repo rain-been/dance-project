@@ -1,0 +1,318 @@
+{
+    "labelList": [
+      {
+        "choises": [
+          {
+            "name": "民族舞",
+            "id": "402881ed649d628e01649d636ea7005a"
+          },
+          {
+            "name": "爵士舞",
+            "id": "402881ed649d628e01649d636ea70057"
+          },
+          {
+            "name": "古典舞",
+            "id": "402881ed649d628e01649d636ea7005b"
+          },
+          {
+            "name": "街舞",
+            "id": "402881ed649d628e01649d636ea60056"
+          },
+          {
+            "name": "中国舞",
+            "id": "ff80808167bef94f0167bf6f6e0a1fd2"
+          },
+          {
+            "name": "原创编舞",
+            "id": "ff80808167d9dd620167e457f899789a"
+          },
+          {
+            "name": "流行热舞",
+            "id": "402881ed649d628e01649d636ea80065"
+          },
+          {
+            "name": "成人舞蹈",
+            "id": "ff8080816960e987016962b2af0f5323"
+          },
+          {
+            "name": "少儿舞蹈",
+            "id": "402881ed649d628e01649d636ea80067"
+          },
+          {
+            "name": "热门舞蹈",
+            "id": "ff808081683f378701687690e06e66ac"
+          },
+          {
+            "name": "中国风",
+            "id": "ff80808167c026c90167c1fbde74258b"
+          },
+          {
+            "name": "民族民间舞",
+            "id": "ff8080816a9f772a016ab929bd056c95"
+          },
+          {
+            "name": "基本功",
+            "id": "ff80808167effef30167f390c2bf6b63"
+          },
+          {
+            "name": "肚皮舞",
+            "id": "402881ed649d628e01649d636ea7005f"
+          },
+          {
+            "name": "儿童舞蹈",
+            "id": "ff80808167c6b44f0167c9ec35630d8e"
+          },
+          {
+            "name": "东方舞",
+            "id": "ff808081682b399d0168307bc5f64c75"
+          }
+        ],
+        "formType": "multiple_select",
+        "label": "兴趣技能",
+        "name": "avocation",
+        "style": "smallRect",
+        "valueType": "JsonArray"
+      },
+      {
+        "choises": [
+          {
+            "name": "2元以下",
+            "id": "range_0_2"
+          },
+          {
+            "name": "2-100元",
+            "id": "range_2_100"
+          },
+          {
+            "name": "101-400元",
+            "id": "range_101_400"
+          },
+          {
+            "name": "400元以上",
+            "id": "gt_400"
+          }
+        ],
+        "formType": "multiple_select",
+        "label": "价格区间",
+        "name": "priceRange",
+        "style": "smallRect",
+        "valueType": "JsonArray"
+      },
+      {
+        "choises": [
+          {
+            "groupType": "courseType",
+            "name": "舞蹈教学",
+            "id": "9b5f94a5b4bba29f0bbbc7017b69dacd"
+          },
+          {
+            "groupType": "courseType",
+            "name": "成品舞",
+            "id": "d90d3359dea27b2425db29fb81226186"
+          },
+          {
+            "groupType": "courseType",
+            "name": "成人零基础",
+            "id": "7dc36a039e68613d4675cc076466cb42"
+          },
+          {
+            "groupType": "courseType",
+            "name": "教学视频",
+            "id": "b22d4cf8d15650a89db7ae5d9d1b011b"
+          },
+          {
+            "groupType": "courseType",
+            "name": "古典舞",
+            "id": "fd3fb68ed6b04eb90c9b93dedc128d5e"
+          },
+          {
+            "groupType": "courseType",
+            "name": "基本功",
+            "id": "e3ecd754dcd5101c8a58098f5a24227a"
+          },
+          {
+            "groupType": "courseType",
+            "name": "舞蹈",
+            "id": "66af524cb6bcd5b67bb3a26460405fd8"
+          },
+          {
+            "groupType": "courseType",
+            "name": "中国舞",
+            "id": "420467cf1ef94c55bcea67f8c71c8016"
+          },
+          {
+            "groupType": "courseType",
+            "name": "原创编舞",
+            "id": "d1fdeb6c0dbd1ba1c4a581d9002db9a3"
+          },
+          {
+            "groupType": "courseType",
+            "name": "镜面分解",
+            "id": "fcbb85e372500a6143388a464b0a6975"
+          },
+          {
+            "groupType": "courseType",
+            "name": "舞蹈组合",
+            "id": "15bf4565c57e7bf275a9eb8f741130d4"
+          },
+          {
+            "groupType": "courseType",
+            "name": "编创",
+            "id": "906eca5597e765798b32b51c2edc1d89"
+          },
+          {
+            "groupType": "courseType",
+            "name": "年会舞蹈",
+            "id": "6473d6022367442d22981b1f7d8900bc"
+          },
+          {
+            "groupType": "courseType",
+            "name": "少儿舞蹈",
+            "id": "aa6392b98c56a6cf0f63127f728238ff"
+          },
+          {
+            "groupType": "courseType",
+            "name": "爵士舞",
+            "id": "5cd482e52bcc21f5508ff32be3f5e55b"
+          },
+          {
+            "groupType": "courseType",
+            "name": "肚皮舞",
+            "id": "e8706445e12de8d52bf53422d4213692"
+          }
+        ],
+        "formType": "multiple_select",
+        "label": "课程类型",
+        "name": "courseType",
+        "style": "smallRect",
+        "valueType": "JsonArray"
+      },
+      {
+        "choises": [
+          {
+            "groupType": "learningGoals",
+            "name": "舞蹈教学",
+            "id": "fec9b0de3766fefebaa95ffa493f1915"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "易于自学",
+            "id": "6865fa94c40031db160c4e0f253c64e6"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "气质提升",
+            "id": "24a7095516af1ac68b9c931351fb0f61"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "娱乐才艺",
+            "id": "6fb7438aec3ccd2e4a2772f3da2da634"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "个人提升",
+            "id": "f6f1ed341e5ce4f6e76360e237e6b0ce"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "节奏协调",
+            "id": "911174c5093dd4229098634e47d53991"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "专业表演",
+            "id": "f79bc1fc58d0be13ed45994eea56df5c"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "舞蹈编创",
+            "id": "f1667ffad1fc6c0fa7c244ff3ae30e2f"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "参加比赛",
+            "id": "b1911a7e90abf984d022d00e8fec36e5"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "古典舞",
+            "id": "3eb05dc2e2423b59be0bc9b08afe495e"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "舞蹈表演",
+            "id": "15e03112929e55489f74714d14ca7fb3"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "身体柔韧",
+            "id": "71ff153167c8d0c1e404255c6f91aece"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "减肥塑形",
+            "id": "5b2e129db4657de03b794d4eb008b308"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "动作分析",
+            "id": "2e84ff943a0b56337e44606d534fe6c7"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "便宜方便",
+            "id": "af9fd66ea05f3f91af427aab9cab74e2"
+          },
+          {
+            "groupType": "learningGoals",
+            "name": "年会舞蹈",
+            "id": "30429b68ca75da7be558c86329025aa1"
+          }
+        ],
+        "formType": "multiple_select",
+        "label": "学习目标",
+        "name": "learningGoals",
+        "style": "smallRect",
+        "valueType": "JsonArray"
+      },
+      {
+        "choises": [
+          {
+            "name": "零基础",
+            "id": "70"
+          },
+          {
+            "name": "业余初级",
+            "id": "10"
+          },
+          {
+            "name": "业余中级",
+            "id": "20"
+          },
+          {
+            "name": "业余高级",
+            "id": "30"
+          },
+          {
+            "name": "专业初级",
+            "id": "40"
+          },
+          {
+            "name": "专业中级",
+            "id": "50"
+          },
+          {
+            "name": "专业高级",
+            "id": "60"
+          }
+        ],
+        "formType": "multiple_select",
+        "label": "难易度",
+        "name": "difficultDegree",
+        "style": "smallRect",
+        "valueType": "JsonArray"
+      }
+    ]
+  }
+  
